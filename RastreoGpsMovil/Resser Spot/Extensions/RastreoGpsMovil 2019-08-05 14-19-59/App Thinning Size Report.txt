@@ -1,0 +1,148 @@
+
+App Thinning Size Report for All Variants of RastreoGpsMovil
+
+Variant: RastreoGpsMovil-03ED9B12-A351-458F-B1F8-DFACF0EF3E4D.ipa
+Supported variant descriptors: [device: iPhone9,3, os-version: 12.0], [device: iPhone9,1, os-version: 12.0], [device: iPhone10,1, os-version: 12.0], and [device: iPhone10,4, os-version: 12.0]
+App + On Demand Resources size: 16.7 MB compressed, 24 MB uncompressed
+App size: 16.7 MB compressed, 24 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-21EBFF55-FC19-46B0-BDD8-01BAE8FDF196.ipa
+Supported variant descriptors: [device: iPhone11,8, os-version: 12.2]
+App + On Demand Resources size: 14.2 MB compressed, 16.5 MB uncompressed
+App size: 14.2 MB compressed, 16.5 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-44F6EDDB-1334-4309-8040-8B114679F99B.ipa
+Supported variant descriptors: [device: iPod7,1, os-version: 11.0], [device: iPhone6,2, os-version: 11.0], [device: iPhone6,1, os-version: 11.0], [device: iPhone7,2, os-version: 11.0], [device: iPhone8,4, os-version: 11.0], and [device: iPhone8,1, os-version: 11.0]
+App + On Demand Resources size: 17.7 MB compressed, 25 MB uncompressed
+App size: 17.7 MB compressed, 25 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-472827EE-FC7E-4832-BA4F-CFC34484FB9D.ipa
+Supported variant descriptors: [device: iPhone10,5, os-version: 12.0], [device: iPhone10,3, os-version: 12.0], [device: iPhone9,2, os-version: 12.0], [device: iPhone10,2, os-version: 12.0], [device: iPhone11,4, os-version: 12.0], [device: iPhone11,2, os-version: 12.0], [device: iPhone11,6, os-version: 12.0], [device: iPhone10,6, os-version: 12.0], and [device: iPhone9,4, os-version: 12.0]
+App + On Demand Resources size: 17.7 MB compressed, 25 MB uncompressed
+App size: 17.7 MB compressed, 25 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-4CC60F9B-EF7A-4C0C-AD65-778E6183CA05.ipa
+Supported variant descriptors: [device: iPhone8,2, os-version: 12.0] and [device: iPhone7,1, os-version: 12.0]
+App + On Demand Resources size: 17.7 MB compressed, 25 MB uncompressed
+App size: 17.7 MB compressed, 25 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-4DF7DFC5-D41E-49C4-A24B-5B131EBA8771.ipa
+Supported variant descriptors: [device: iPad4,9, os-version: 11.0], [device: iPad5,1, os-version: 11.0], [device: iPad6,11, os-version: 11.0], [device: iPad4,6, os-version: 11.0], [device: iPad4,2, os-version: 11.0], [device: iPad5,2, os-version: 11.0], [device: iPad6,7, os-version: 11.0], [device: iPad4,3, os-version: 11.0], [device: iPad5,3, os-version: 11.0], [device: iPad5,4, os-version: 11.0], [device: iPad6,12, os-version: 11.0], [device: iPad4,8, os-version: 11.0], [device: iPad4,5, os-version: 11.0], [device: iPad7,5, os-version: 11.0], [device: iPad7,6, os-version: 11.0], [device: iPad4,7, os-version: 11.0], [device: iPad6,8, os-version: 11.0], [device: iPad4,4, os-version: 11.0], and [device: iPad4,1, os-version: 11.0]
+App + On Demand Resources size: 17.7 MB compressed, 25 MB uncompressed
+App size: 17.7 MB compressed, 25 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-65841550-B7E8-4E90-8FF7-29B6579D3931.ipa
+Supported variant descriptors: [device: iPod7,1, os-version: 12.2], [device: iPhone7,2, os-version: 12.2], [device: iPhone8,4, os-version: 12.2], [device: iPhone6,1, os-version: 12.2], [device: iPhone6,2, os-version: 12.2], and [device: iPhone8,1, os-version: 12.2]
+App + On Demand Resources size: 14.2 MB compressed, 16.5 MB uncompressed
+App size: 14.2 MB compressed, 16.5 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-7641B2B0-79D3-4DFC-B591-A8254A848254.ipa
+Supported variant descriptors: [device: iPad7,4, os-version: 12.2], [device: iPad8,2, os-version: 12.2], [device: iPad8,5, os-version: 12.2], [device: iPad11,3, os-version: 12.2], [device: iPad6,3, os-version: 12.2], [device: iPad7,1, os-version: 12.2], [device: iPad8,8, os-version: 12.2], [device: iPad8,7, os-version: 12.2], [device: iPad6,4, os-version: 12.2], [device: iPad7,2, os-version: 12.2], [device: iPad8,6, os-version: 12.2], [device: iPad11,1, os-version: 12.2], [device: iPad11,2, os-version: 12.2], [device: iPad8,4, os-version: 12.2], [device: iPad11,4, os-version: 12.2], [device: iPad8,1, os-version: 12.2], [device: iPad7,3, os-version: 12.2], and [device: iPad8,3, os-version: 12.2]
+App + On Demand Resources size: 14.2 MB compressed, 16.5 MB uncompressed
+App size: 14.2 MB compressed, 16.5 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-7811960D-9228-4D84-926D-EE8523A0E841.ipa
+Supported variant descriptors: [device: iPhone7,1, os-version: 12.2] and [device: iPhone8,2, os-version: 12.2]
+App + On Demand Resources size: 15.2 MB compressed, 17.5 MB uncompressed
+App size: 15.2 MB compressed, 17.5 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-7B7584EF-7335-4C64-842B-C384056854C6.ipa
+Supported variant descriptors: [device: iPhone10,6, os-version: 12.2], [device: iPhone9,4, os-version: 12.2], [device: iPhone9,2, os-version: 12.2], [device: iPhone11,6, os-version: 12.2], [device: iPhone10,2, os-version: 12.2], [device: iPhone10,3, os-version: 12.2], [device: iPhone11,4, os-version: 12.2], [device: iPhone11,2, os-version: 12.2], and [device: iPhone10,5, os-version: 12.2]
+App + On Demand Resources size: 15.2 MB compressed, 17.5 MB uncompressed
+App size: 15.2 MB compressed, 17.5 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-90BD998E-E456-4B8F-9EF4-C0109BA9B0C7.ipa
+Supported variant descriptors: [device: iPhone10,4, os-version: 12.2], [device: iPhone9,3, os-version: 12.2], [device: iPhone9,1, os-version: 12.2], and [device: iPhone10,1, os-version: 12.2]
+App + On Demand Resources size: 14.2 MB compressed, 16.5 MB uncompressed
+App size: 14.2 MB compressed, 16.5 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-98CC17CD-D449-45E4-AB5E-B60EDD57E639.ipa
+Supported variant descriptors: [device: iPhone11,8, os-version: 12.0]
+App + On Demand Resources size: 16.7 MB compressed, 24 MB uncompressed
+App size: 16.7 MB compressed, 24 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-9E29442F-A947-42A1-ADCE-3973C07C8167.ipa
+Supported variant descriptors: [device: iPad7,2, os-version: 12.0], [device: iPad7,3, os-version: 12.0], [device: iPad8,3, os-version: 12.0], [device: iPad8,7, os-version: 12.0], [device: iPad8,5, os-version: 12.0], [device: iPad8,8, os-version: 12.0], [device: iPad6,4, os-version: 12.0], [device: iPad8,6, os-version: 12.0], [device: iPad7,1, os-version: 12.0], [device: iPad7,4, os-version: 12.0], [device: iPad8,2, os-version: 12.0], [device: iPad8,1, os-version: 12.0], [device: iPad8,4, os-version: 12.0], and [device: iPad6,3, os-version: 12.0]
+App + On Demand Resources size: 16.7 MB compressed, 24 MB uncompressed
+App size: 16.7 MB compressed, 24 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-A16B5687-E766-49FC-BF1C-D65CBEA963A5.ipa
+Supported variant descriptors: [device: iPad6,12, os-version: 12.2], [device: iPad5,2, os-version: 12.2], [device: iPad4,6, os-version: 12.2], [device: iPad4,1, os-version: 12.2], [device: iPad4,3, os-version: 12.2], [device: iPad7,6, os-version: 12.2], [device: iPad6,11, os-version: 12.2], [device: iPad5,3, os-version: 12.2], [device: iPad7,5, os-version: 12.2], [device: iPad6,7, os-version: 12.2], [device: iPad4,8, os-version: 12.2], [device: iPad4,4, os-version: 12.2], [device: iPad4,2, os-version: 12.2], [device: iPad4,7, os-version: 12.2], [device: iPad5,1, os-version: 12.2], [device: iPad5,4, os-version: 12.2], [device: iPad4,9, os-version: 12.2], [device: iPad6,8, os-version: 12.2], and [device: iPad4,5, os-version: 12.2]
+App + On Demand Resources size: 14.2 MB compressed, 16.5 MB uncompressed
+App size: 14.2 MB compressed, 16.5 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-A859C564-4781-4F33-BE0F-1171F913A139.ipa
+Supported variant descriptors: [device: iPhone10,4, os-version: 11.0], [device: iPhone10,1, os-version: 11.0], [device: iPhone9,3, os-version: 11.0], and [device: iPhone9,1, os-version: 11.0]
+App + On Demand Resources size: 17.8 MB compressed, 25.1 MB uncompressed
+App size: 17.8 MB compressed, 25.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-B5515748-92ED-48C3-93D2-D03BAA4E0C85.ipa
+Supported variant descriptors: [device: iPad4,3, os-version: 12.0], [device: iPad4,4, os-version: 12.0], [device: iPad4,6, os-version: 12.0], [device: iPad5,1, os-version: 12.0], [device: iPad4,5, os-version: 12.0], [device: iPad4,1, os-version: 12.0], [device: iPad6,11, os-version: 12.0], [device: iPad5,4, os-version: 12.0], [device: iPad5,2, os-version: 12.0], [device: iPad5,3, os-version: 12.0], [device: iPad6,12, os-version: 12.0], [device: iPad6,7, os-version: 12.0], [device: iPad7,5, os-version: 12.0], [device: iPad4,8, os-version: 12.0], [device: iPad4,9, os-version: 12.0], [device: iPad6,8, os-version: 12.0], [device: iPad4,7, os-version: 12.0], [device: iPad7,6, os-version: 12.0], and [device: iPad4,2, os-version: 12.0]
+App + On Demand Resources size: 16.7 MB compressed, 24 MB uncompressed
+App size: 16.7 MB compressed, 24 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-B919C093-773E-4CB4-BFC9-411FD599C94D.ipa
+Supported variant descriptors: [device: iPhone8,2, os-version: 11.0] and [device: iPhone7,1, os-version: 11.0]
+App + On Demand Resources size: 19.2 MB compressed, 26.5 MB uncompressed
+App size: 19.2 MB compressed, 26.5 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-D32D0AE1-5D2F-4A07-832F-77F02D8660F5.ipa
+Supported variant descriptors: [device: iPhone6,1, os-version: 12.0], [device: iPhone8,1, os-version: 12.0], [device: iPhone8,4, os-version: 12.0], [device: iPhone7,2, os-version: 12.0], [device: iPod7,1, os-version: 12.0], and [device: iPhone6,2, os-version: 12.0]
+App + On Demand Resources size: 16.7 MB compressed, 24 MB uncompressed
+App size: 16.7 MB compressed, 24 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-DBC0B3D4-463E-4720-8C73-DC0CC6DD06B6.ipa
+Supported variant descriptors: [device: iPhone9,4, os-version: 11.0], [device: iPhone10,6, os-version: 11.0], [device: iPhone10,3, os-version: 11.0], [device: iPhone10,2, os-version: 11.0], [device: iPhone10,5, os-version: 11.0], and [device: iPhone9,2, os-version: 11.0]
+App + On Demand Resources size: 19.3 MB compressed, 26.6 MB uncompressed
+App size: 19.3 MB compressed, 26.6 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil-E9E7E8D8-A718-41F4-BBEE-ED90E534E1DE.ipa
+Supported variant descriptors: [device: iPad7,2, os-version: 11.0], [device: iPad6,3, os-version: 11.0], [device: iPad6,4, os-version: 11.0], [device: iPad7,1, os-version: 11.0], [device: iPad7,4, os-version: 11.0], and [device: iPad7,3, os-version: 11.0]
+App + On Demand Resources size: 17.8 MB compressed, 25.1 MB uncompressed
+App size: 17.8 MB compressed, 25.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: RastreoGpsMovil.ipa
+Supported variant descriptors: Universal
+App + On Demand Resources size: 31.3 MB compressed, 39.3 MB uncompressed
+App size: 31.3 MB compressed, 39.3 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

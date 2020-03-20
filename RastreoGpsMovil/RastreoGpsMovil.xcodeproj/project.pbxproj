@@ -1,0 +1,1060 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C9E13B7EE767F38501F819 /* Pods_RastreoGpsMovil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7A6D9E83069E48580164CF /* Pods_RastreoGpsMovil.framework */; };
+		5B5409A0227381E6001F22E4 /* background.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5B54099F227381E6001F22E4 /* background.mov */; };
+		5B873A8522774AB100F5F3A3 /* spotColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B873A8422774AB100F5F3A3 /* spotColors.xcassets */; };
+		5B873A8722774AE600F5F3A3 /* launcherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B873A8622774AE600F5F3A3 /* launcherViewController.swift */; };
+		5B873A8922774E9A00F5F3A3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B873A8822774E9A00F5F3A3 /* WelcomeViewController.swift */; };
+		5B873A8B22774ECD00F5F3A3 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B873A8A22774ECD00F5F3A3 /* ContentViewController.swift */; };
+		5B873A8D2277573800F5F3A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B873A8C2277573800F5F3A3 /* LoginViewController.swift */; };
+		A911EA2D228071BB003560CD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A911EA2F228071BB003560CD /* Localizable.strings */; };
+		A911EA3222807C24003560CD /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911EA3122807C24003560CD /* CheckInternet.swift */; };
+		A911EA382280EAFD003560CD /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911EA372280EAFD003560CD /* HideKeyboard.swift */; };
+		A97B22302277ACE800A0FB5E /* Underline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97B222F2277ACE800A0FB5E /* Underline.swift */; };
+		A97B22322277C7EC00A0FB5E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97B22312277C7EC00A0FB5E /* MapViewController.swift */; };
+		A98292A4227B8CE600FE03CA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98292A3227B8CE600FE03CA /* MenuViewController.swift */; };
+		A9A4A86322790CDB0070D37B /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4A86222790CDB0070D37B /* Shadow.swift */; };
+		A9B0BCDD2272273400BF0E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0BCDC2272273400BF0E7C /* AppDelegate.swift */; };
+		A9B0BCDF2272273400BF0E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0BCDE2272273400BF0E7C /* ViewController.swift */; };
+		A9B0BCE22272273400BF0E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B0BCE02272273400BF0E7C /* Main.storyboard */; };
+		A9B0BCE52272273400BF0E7C /* RastreoGpsMovil.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9B0BCE32272273400BF0E7C /* RastreoGpsMovil.xcdatamodeld */; };
+		A9B0BCEA2272273800BF0E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B0BCE82272273800BF0E7C /* LaunchScreen.storyboard */; };
+		A9B0BD1022722E1700BF0E7C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B0BD0F22722E1700BF0E7C /* MapKit.framework */; };
+		A9DFD7122281E9F20094BDE2 /* VehicleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFD7112281E9F20094BDE2 /* VehicleInfo.swift */; };
+		A9FE1DCD22C27CA3007E89F9 /* alarmtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9FE1DCC22C27CA3007E89F9 /* alarmtone.mp3 */; };
+		B215CE2222D510B40070A14C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B215CE2122D510B40070A14C /* Device.swift */; };
+		B22AD362232953E000F68BE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22AD361232953E000F68BE9 /* GoogleService-Info.plist */; };
+		B2486F3E22C512ED00AFBFE9 /* ResserDateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486F3D22C512ED00AFBFE9 /* ResserDateTime.swift */; };
+		B2486F8922C5235300AFBFE9 /* RecoverPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486F8822C5235300AFBFE9 /* RecoverPasswordViewController.swift */; };
+		B2486F9722CA735E00AFBFE9 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486F9622CA735E00AFBFE9 /* NotificationService.swift */; };
+		B2486F9B22CA735E00AFBFE9 /* NotifService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B2486F9422CA735E00AFBFE9 /* NotifService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B2486FA122CA78C900AFBFE9 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486FA022CA78C900AFBFE9 /* Phone.swift */; };
+		B2529E6B228DBB3900155380 /* HistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2529E6A228DBB3900155380 /* HistoricViewController.swift */; };
+		B2591A59228C6DCF003C5AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2591A58228C6DCF003C5AB1 /* Assets.xcassets */; };
+		B2A4B5F422E232EF005267D4 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A4B5F322E232EF005267D4 /* Gif.swift */; };
+		B2A4B5F622E23331005267D4 /* ticketsGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = B2A4B5F522E23331005267D4 /* ticketsGif.gif */; };
+		B2D750A122F4AD7C003396C6 /* SameArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D750A022F4AD7C003396C6 /* SameArrays.swift */; };
+		B2D9AA74228A01800055931C /* LogoutPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9AA73228A01800055931C /* LogoutPopupViewController.swift */; };
+		B2EFFE7122D92E10001617DF /* ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EFFE7022D92E10001617DF /* ColorHex.swift */; };
+		B2F4636B229733FC00F48398 /* SosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4636A229733FC00F48398 /* SosViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9B0BCF12272273800BF0E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B0BCD12272273400BF0E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B0BCD82272273400BF0E7C;
+			remoteInfo = RastreoGpsMovil;
+		};
+		A9B0BCFC2272273800BF0E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B0BCD12272273400BF0E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B0BCD82272273400BF0E7C;
+			remoteInfo = RastreoGpsMovil;
+		};
+		B2486F9922CA735E00AFBFE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B0BCD12272273400BF0E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2486F9322CA735E00AFBFE9;
+			remoteInfo = NotifService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B215CE4A22D678380070A14C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2486F9F22CA735E00AFBFE9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B2486F9B22CA735E00AFBFE9 /* NotifService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B54099F227381E6001F22E4 /* background.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = background.mov; sourceTree = "<group>"; };
+		5B873A8422774AB100F5F3A3 /* spotColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = spotColors.xcassets; sourceTree = "<group>"; };
+		5B873A8622774AE600F5F3A3 /* launcherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = launcherViewController.swift; sourceTree = "<group>"; };
+		5B873A8822774E9A00F5F3A3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5B873A8A22774ECD00F5F3A3 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		5B873A8C2277573800F5F3A3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5F7A6D9E83069E48580164CF /* Pods_RastreoGpsMovil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RastreoGpsMovil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8D9013735A25BF95006480 /* Pods-RastreoGpsMovil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RastreoGpsMovil.release.xcconfig"; path = "Target Support Files/Pods-RastreoGpsMovil/Pods-RastreoGpsMovil.release.xcconfig"; sourceTree = "<group>"; };
+		A911EA2E228071BB003560CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A911EA3022807217003560CD /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A911EA3122807C24003560CD /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		A911EA372280EAFD003560CD /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		A9328BA2228070B800185F3C /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
+		A9328BA3228070B800185F3C /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A97B222F2277ACE800A0FB5E /* Underline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Underline.swift; sourceTree = "<group>"; };
+		A97B22312277C7EC00A0FB5E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A98292A3227B8CE600FE03CA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A9A4A86222790CDB0070D37B /* Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		A9B0BCD92272273400BF0E7C /* RastreoGpsMovil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RastreoGpsMovil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B0BCDC2272273400BF0E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9B0BCDE2272273400BF0E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9B0BCE12272273400BF0E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9B0BCE42272273400BF0E7C /* RastreoGpsMovil.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RastreoGpsMovil.xcdatamodel; sourceTree = "<group>"; };
+		A9B0BCE92272273800BF0E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9B0BCEB2272273800BF0E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B0BCF02272273800BF0E7C /* RastreoGpsMovilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RastreoGpsMovilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B0BCFB2272273800BF0E7C /* RastreoGpsMovilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RastreoGpsMovilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B0BD0D22722C1200BF0E7C /* RastreoGpsMovil.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RastreoGpsMovil.entitlements; sourceTree = "<group>"; };
+		A9B0BD0F22722E1700BF0E7C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A9DFD7112281E9F20094BDE2 /* VehicleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInfo.swift; sourceTree = "<group>"; };
+		A9FE1DCC22C27CA3007E89F9 /* alarmtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarmtone.mp3; sourceTree = "<group>"; };
+		B215CE2122D510B40070A14C /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		B22AD361232953E000F68BE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2486F3C22C3C82C00AFBFE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		B2486F3D22C512ED00AFBFE9 /* ResserDateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResserDateTime.swift; sourceTree = "<group>"; };
+		B2486F8822C5235300AFBFE9 /* RecoverPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordViewController.swift; sourceTree = "<group>"; };
+		B2486F9422CA735E00AFBFE9 /* NotifService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotifService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2486F9622CA735E00AFBFE9 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B2486F9822CA735E00AFBFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2486FA022CA78C900AFBFE9 /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		B2529E6A228DBB3900155380 /* HistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricViewController.swift; sourceTree = "<group>"; };
+		B2591A58228C6DCF003C5AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2A4B5F322E232EF005267D4 /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		B2A4B5F522E23331005267D4 /* ticketsGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ticketsGif.gif; sourceTree = "<group>"; };
+		B2D750A022F4AD7C003396C6 /* SameArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameArrays.swift; sourceTree = "<group>"; };
+		B2D9AA73228A01800055931C /* LogoutPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutPopupViewController.swift; sourceTree = "<group>"; };
+		B2EFFE7022D92E10001617DF /* ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex.swift; sourceTree = "<group>"; };
+		B2F4636A229733FC00F48398 /* SosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosViewController.swift; sourceTree = "<group>"; };
+		FD3851E8D8AA0822DFAF2B0A /* Pods-RastreoGpsMovil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RastreoGpsMovil.debug.xcconfig"; path = "Target Support Files/Pods-RastreoGpsMovil/Pods-RastreoGpsMovil.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9B0BCD62272273400BF0E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B0BD1022722E1700BF0E7C /* MapKit.framework in Frameworks */,
+				03C9E13B7EE767F38501F819 /* Pods_RastreoGpsMovil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B0BCED2272273800BF0E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B0BCF82272273800BF0E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2486F9122CA735E00AFBFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B54099E227381A4001F22E4 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				5B54099F227381E6001F22E4 /* background.mov */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		5B873A8322774AB100F5F3A3 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				5B873A8422774AB100F5F3A3 /* spotColors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		A9B0BCD02272273400BF0E7C = {
+			isa = PBXGroup;
+			children = (
+				A9DFD7112281E9F20094BDE2 /* VehicleInfo.swift */,
+				A911EA3122807C24003560CD /* CheckInternet.swift */,
+				A9B0BD0D22722C1200BF0E7C /* RastreoGpsMovil.entitlements */,
+				A9B0BCDB2272273400BF0E7C /* Resser Spot */,
+				B2486F9522CA735E00AFBFE9 /* NotifService */,
+				A9B0BCDA2272273400BF0E7C /* Products */,
+				A9B0BD0E22722E1700BF0E7C /* Frameworks */,
+				F37346DFA68C8B5200034F2B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A9B0BCDA2272273400BF0E7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B0BCD92272273400BF0E7C /* RastreoGpsMovil.app */,
+				A9B0BCF02272273800BF0E7C /* RastreoGpsMovilTests.xctest */,
+				A9B0BCFB2272273800BF0E7C /* RastreoGpsMovilUITests.xctest */,
+				B2486F9422CA735E00AFBFE9 /* NotifService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B0BCDB2272273400BF0E7C /* Resser Spot */ = {
+			isa = PBXGroup;
+			children = (
+				A9B0BD162272303F00BF0E7C /* Model */,
+				A9B0BD152272303500BF0E7C /* Controllers */,
+				A9B0BD142272302C00BF0E7C /* Extensions */,
+				A9B0BD122272300A00BF0E7C /* Resources */,
+				A9B0BCDC2272273400BF0E7C /* AppDelegate.swift */,
+				A9B0BCDE2272273400BF0E7C /* ViewController.swift */,
+				A9B0BCE32272273400BF0E7C /* RastreoGpsMovil.xcdatamodeld */,
+				A9B0BCE02272273400BF0E7C /* Main.storyboard */,
+				A9B0BCE82272273800BF0E7C /* LaunchScreen.storyboard */,
+				A911EA2F228071BB003560CD /* Localizable.strings */,
+			);
+			path = "Resser Spot";
+			sourceTree = "<group>";
+		};
+		A9B0BD0E22722E1700BF0E7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B0BD0F22722E1700BF0E7C /* MapKit.framework */,
+				5F7A6D9E83069E48580164CF /* Pods_RastreoGpsMovil.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9B0BD122272300A00BF0E7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B873A8322774AB100F5F3A3 /* Colors */,
+				5B54099E227381A4001F22E4 /* Video */,
+				A9B0BD132272301300BF0E7C /* Images */,
+				A9FE1DCC22C27CA3007E89F9 /* alarmtone.mp3 */,
+				B22AD361232953E000F68BE9 /* GoogleService-Info.plist */,
+				A9B0BCEB2272273800BF0E7C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9B0BD132272301300BF0E7C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B2591A58228C6DCF003C5AB1 /* Assets.xcassets */,
+				B2A4B5F522E23331005267D4 /* ticketsGif.gif */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A9B0BD142272302C00BF0E7C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A9A4A86222790CDB0070D37B /* Shadow.swift */,
+				A97B222F2277ACE800A0FB5E /* Underline.swift */,
+				A911EA372280EAFD003560CD /* HideKeyboard.swift */,
+				B2486FA022CA78C900AFBFE9 /* Phone.swift */,
+				B215CE2122D510B40070A14C /* Device.swift */,
+				B2EFFE7022D92E10001617DF /* ColorHex.swift */,
+				B2A4B5F322E232EF005267D4 /* Gif.swift */,
+				B2D750A022F4AD7C003396C6 /* SameArrays.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A9B0BD152272303500BF0E7C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B873A8622774AE600F5F3A3 /* launcherViewController.swift */,
+				5B873A8822774E9A00F5F3A3 /* WelcomeViewController.swift */,
+				5B873A8A22774ECD00F5F3A3 /* ContentViewController.swift */,
+				5B873A8C2277573800F5F3A3 /* LoginViewController.swift */,
+				A97B22312277C7EC00A0FB5E /* MapViewController.swift */,
+				A98292A3227B8CE600FE03CA /* MenuViewController.swift */,
+				B2D9AA73228A01800055931C /* LogoutPopupViewController.swift */,
+				B2529E6A228DBB3900155380 /* HistoricViewController.swift */,
+				B2F4636A229733FC00F48398 /* SosViewController.swift */,
+				B2486F8822C5235300AFBFE9 /* RecoverPasswordViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A9B0BD162272303F00BF0E7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2486F3D22C512ED00AFBFE9 /* ResserDateTime.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2486F9522CA735E00AFBFE9 /* NotifService */ = {
+			isa = PBXGroup;
+			children = (
+				B2486F9622CA735E00AFBFE9 /* NotificationService.swift */,
+				B2486F9822CA735E00AFBFE9 /* Info.plist */,
+			);
+			path = NotifService;
+			sourceTree = "<group>";
+		};
+		F37346DFA68C8B5200034F2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD3851E8D8AA0822DFAF2B0A /* Pods-RastreoGpsMovil.debug.xcconfig */,
+				9A8D9013735A25BF95006480 /* Pods-RastreoGpsMovil.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9B0BCD82272273400BF0E7C /* RastreoGpsMovil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B0BD042272273800BF0E7C /* Build configuration list for PBXNativeTarget "RastreoGpsMovil" */;
+			buildPhases = (
+				3056BB0F2F3CAF00A2FCAFFF /* [CP] Check Pods Manifest.lock */,
+				A9B0BCD52272273400BF0E7C /* Sources */,
+				A9B0BCD62272273400BF0E7C /* Frameworks */,
+				A9B0BCD72272273400BF0E7C /* Resources */,
+				D3886B68E6EAE6B5DE5B6BF8 /* [CP] Embed Pods Frameworks */,
+				B2486F9F22CA735E00AFBFE9 /* Embed App Extensions */,
+				B215CE4A22D678380070A14C /* Embed Watch Content */,
+				B232346E23202C5700F2ED44 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2486F9A22CA735E00AFBFE9 /* PBXTargetDependency */,
+			);
+			name = RastreoGpsMovil;
+			productName = RastreoGpsMovil;
+			productReference = A9B0BCD92272273400BF0E7C /* RastreoGpsMovil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9B0BCEF2272273800BF0E7C /* RastreoGpsMovilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B0BD072272273800BF0E7C /* Build configuration list for PBXNativeTarget "RastreoGpsMovilTests" */;
+			buildPhases = (
+				A9B0BCEC2272273800BF0E7C /* Sources */,
+				A9B0BCED2272273800BF0E7C /* Frameworks */,
+				A9B0BCEE2272273800BF0E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B0BCF22272273800BF0E7C /* PBXTargetDependency */,
+			);
+			name = RastreoGpsMovilTests;
+			productName = RastreoGpsMovilTests;
+			productReference = A9B0BCF02272273800BF0E7C /* RastreoGpsMovilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9B0BCFA2272273800BF0E7C /* RastreoGpsMovilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B0BD0A2272273800BF0E7C /* Build configuration list for PBXNativeTarget "RastreoGpsMovilUITests" */;
+			buildPhases = (
+				A9B0BCF72272273800BF0E7C /* Sources */,
+				A9B0BCF82272273800BF0E7C /* Frameworks */,
+				A9B0BCF92272273800BF0E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B0BCFD2272273800BF0E7C /* PBXTargetDependency */,
+			);
+			name = RastreoGpsMovilUITests;
+			productName = RastreoGpsMovilUITests;
+			productReference = A9B0BCFB2272273800BF0E7C /* RastreoGpsMovilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B2486F9322CA735E00AFBFE9 /* NotifService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2486F9C22CA735E00AFBFE9 /* Build configuration list for PBXNativeTarget "NotifService" */;
+			buildPhases = (
+				B2486F9022CA735E00AFBFE9 /* Sources */,
+				B2486F9122CA735E00AFBFE9 /* Frameworks */,
+				B2486F9222CA735E00AFBFE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotifService;
+			productName = NotifService;
+			productReference = B2486F9422CA735E00AFBFE9 /* NotifService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9B0BCD12272273400BF0E7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Resser;
+				TargetAttributes = {
+					A9B0BCD82272273400BF0E7C = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					A9B0BCEF2272273800BF0E7C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A9B0BCD82272273400BF0E7C;
+					};
+					A9B0BCFA2272273800BF0E7C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A9B0BCD82272273400BF0E7C;
+					};
+					B2486F9322CA735E00AFBFE9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A9B0BCD42272273400BF0E7C /* Build configuration list for PBXProject "RastreoGpsMovil" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"es-419",
+			);
+			mainGroup = A9B0BCD02272273400BF0E7C;
+			productRefGroup = A9B0BCDA2272273400BF0E7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B0BCD82272273400BF0E7C /* RastreoGpsMovil */,
+				A9B0BCEF2272273800BF0E7C /* RastreoGpsMovilTests */,
+				A9B0BCFA2272273800BF0E7C /* RastreoGpsMovilUITests */,
+				B2486F9322CA735E00AFBFE9 /* NotifService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9B0BCD72272273400BF0E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5409A0227381E6001F22E4 /* background.mov in Resources */,
+				B22AD362232953E000F68BE9 /* GoogleService-Info.plist in Resources */,
+				A911EA2D228071BB003560CD /* Localizable.strings in Resources */,
+				A9B0BCEA2272273800BF0E7C /* LaunchScreen.storyboard in Resources */,
+				B2A4B5F622E23331005267D4 /* ticketsGif.gif in Resources */,
+				A9B0BCE22272273400BF0E7C /* Main.storyboard in Resources */,
+				B2591A59228C6DCF003C5AB1 /* Assets.xcassets in Resources */,
+				5B873A8522774AB100F5F3A3 /* spotColors.xcassets in Resources */,
+				A9FE1DCD22C27CA3007E89F9 /* alarmtone.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B0BCEE2272273800BF0E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B0BCF92272273800BF0E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2486F9222CA735E00AFBFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3056BB0F2F3CAF00A2FCAFFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RastreoGpsMovil-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B232346E23202C5700F2ED44 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		D3886B68E6EAE6B5DE5B6BF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RastreoGpsMovil/Pods-RastreoGpsMovil-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/WARangeSlider/WARangeSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WARangeSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RastreoGpsMovil/Pods-RastreoGpsMovil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9B0BCD52272273400BF0E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B215CE2222D510B40070A14C /* Device.swift in Sources */,
+				A97B22302277ACE800A0FB5E /* Underline.swift in Sources */,
+				A9DFD7122281E9F20094BDE2 /* VehicleInfo.swift in Sources */,
+				B2F4636B229733FC00F48398 /* SosViewController.swift in Sources */,
+				5B873A8D2277573800F5F3A3 /* LoginViewController.swift in Sources */,
+				B2D750A122F4AD7C003396C6 /* SameArrays.swift in Sources */,
+				5B873A8722774AE600F5F3A3 /* launcherViewController.swift in Sources */,
+				B2529E6B228DBB3900155380 /* HistoricViewController.swift in Sources */,
+				5B873A8922774E9A00F5F3A3 /* WelcomeViewController.swift in Sources */,
+				B2D9AA74228A01800055931C /* LogoutPopupViewController.swift in Sources */,
+				A97B22322277C7EC00A0FB5E /* MapViewController.swift in Sources */,
+				A9B0BCE52272273400BF0E7C /* RastreoGpsMovil.xcdatamodeld in Sources */,
+				B2486F8922C5235300AFBFE9 /* RecoverPasswordViewController.swift in Sources */,
+				B2486F3E22C512ED00AFBFE9 /* ResserDateTime.swift in Sources */,
+				A911EA382280EAFD003560CD /* HideKeyboard.swift in Sources */,
+				B2486FA122CA78C900AFBFE9 /* Phone.swift in Sources */,
+				A911EA3222807C24003560CD /* CheckInternet.swift in Sources */,
+				B2EFFE7122D92E10001617DF /* ColorHex.swift in Sources */,
+				A98292A4227B8CE600FE03CA /* MenuViewController.swift in Sources */,
+				A9B0BCDF2272273400BF0E7C /* ViewController.swift in Sources */,
+				5B873A8B22774ECD00F5F3A3 /* ContentViewController.swift in Sources */,
+				A9A4A86322790CDB0070D37B /* Shadow.swift in Sources */,
+				A9B0BCDD2272273400BF0E7C /* AppDelegate.swift in Sources */,
+				B2A4B5F422E232EF005267D4 /* Gif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B0BCEC2272273800BF0E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B0BCF72272273800BF0E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2486F9022CA735E00AFBFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2486F9722CA735E00AFBFE9 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9B0BCF22272273800BF0E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B0BCD82272273400BF0E7C /* RastreoGpsMovil */;
+			targetProxy = A9B0BCF12272273800BF0E7C /* PBXContainerItemProxy */;
+		};
+		A9B0BCFD2272273800BF0E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B0BCD82272273400BF0E7C /* RastreoGpsMovil */;
+			targetProxy = A9B0BCFC2272273800BF0E7C /* PBXContainerItemProxy */;
+		};
+		B2486F9A22CA735E00AFBFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2486F9322CA735E00AFBFE9 /* NotifService */;
+			targetProxy = B2486F9922CA735E00AFBFE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A911EA2F228071BB003560CD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A911EA2E228071BB003560CD /* en */,
+				A911EA3022807217003560CD /* es-419 */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A9B0BCE02272273400BF0E7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B0BCE12272273400BF0E7C /* Base */,
+				A9328BA2228070B800185F3C /* es-419 */,
+				B2486F3C22C3C82C00AFBFE9 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9B0BCE82272273800BF0E7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B0BCE92272273800BF0E7C /* Base */,
+				A9328BA3228070B800185F3C /* es-419 */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9B0BD022272273800BF0E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9B0BD032272273800BF0E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9B0BD052272273800BF0E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD3851E8D8AA0822DFAF2B0A /* Pods-RastreoGpsMovil.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RastreoGpsMovil.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RKY298MREG;
+				INFOPLIST_FILE = "$(SRCROOT)/Resser Spot/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.5.9;
+				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9B0BD062272273800BF0E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8D9013735A25BF95006480 /* Pods-RastreoGpsMovil.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RastreoGpsMovil.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = RKY298MREG;
+				INFOPLIST_FILE = "$(SRCROOT)/Resser Spot/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.5.9;
+				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A9B0BD082272273800BF0E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKY298MREG;
+				INFOPLIST_FILE = RastreoGpsMovilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RastreoGpsMovil.app/RastreoGpsMovil";
+			};
+			name = Debug;
+		};
+		A9B0BD092272273800BF0E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKY298MREG;
+				INFOPLIST_FILE = RastreoGpsMovilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RastreoGpsMovil.app/RastreoGpsMovil";
+			};
+			name = Release;
+		};
+		A9B0BD0B2272273800BF0E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKY298MREG;
+				INFOPLIST_FILE = RastreoGpsMovilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RastreoGpsMovil;
+			};
+			name = Debug;
+		};
+		A9B0BD0C2272273800BF0E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKY298MREG;
+				INFOPLIST_FILE = RastreoGpsMovilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RastreoGpsMovil;
+			};
+			name = Release;
+		};
+		B2486F9D22CA735E00AFBFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RKY298MREG;
+				INFOPLIST_FILE = NotifService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 3.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovil.NotifService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2486F9E22CA735E00AFBFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = RKY298MREG;
+				INFOPLIST_FILE = NotifService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 3.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovil.NotifService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9B0BCD42272273400BF0E7C /* Build configuration list for PBXProject "RastreoGpsMovil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B0BD022272273800BF0E7C /* Debug */,
+				A9B0BD032272273800BF0E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B0BD042272273800BF0E7C /* Build configuration list for PBXNativeTarget "RastreoGpsMovil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B0BD052272273800BF0E7C /* Debug */,
+				A9B0BD062272273800BF0E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B0BD072272273800BF0E7C /* Build configuration list for PBXNativeTarget "RastreoGpsMovilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B0BD082272273800BF0E7C /* Debug */,
+				A9B0BD092272273800BF0E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B0BD0A2272273800BF0E7C /* Build configuration list for PBXNativeTarget "RastreoGpsMovilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B0BD0B2272273800BF0E7C /* Debug */,
+				A9B0BD0C2272273800BF0E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2486F9C22CA735E00AFBFE9 /* Build configuration list for PBXNativeTarget "NotifService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2486F9D22CA735E00AFBFE9 /* Debug */,
+				B2486F9E22CA735E00AFBFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9B0BCE32272273400BF0E7C /* RastreoGpsMovil.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9B0BCE42272273400BF0E7C /* RastreoGpsMovil.xcdatamodel */,
+			);
+			currentVersion = A9B0BCE42272273400BF0E7C /* RastreoGpsMovil.xcdatamodel */;
+			path = RastreoGpsMovil.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9B0BCD12272273400BF0E7C /* Project object */;
+}

@@ -1,0 +1,501 @@
+
+/* Class = "UILabel"; text = "Modo Guardia"; ObjectID = "0J9-O9-TKj"; */
+"0J9-O9-TKj.text" = "Modo Guardia";
+
+/* Class = "UITextField"; placeholder = "Correo electrónico"; ObjectID = "0bj-Am-6zl"; */
+"0bj-Am-6zl.placeholder" = "Correo electrónico";
+
+/* Class = "UILabel"; text = "Tenencia Vehícular"; ObjectID = "11G-Dw-pkm"; */
+"11G-Dw-pkm.text" = "Tenencia Vehícular";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "1c2-h9-XKN"; */
+"1c2-h9-XKN.text" = "L";
+
+/* Class = "UILabel"; text = "Nombre del recordatorio"; ObjectID = "2cr-Iv-8MW"; */
+"2cr-Iv-8MW.text" = "Reminder";
+
+/* Class = "UIButton"; normalTitle = "Contrata"; ObjectID = "2p7-wH-esJ"; */
+"2p7-wH-esJ.normalTitle" = "Contrata";
+
+/* Class = "UILabel"; text = "D"; ObjectID = "3XV-5H-o1S"; */
+"3XV-5H-o1S.text" = "D";
+
+/* Class = "UILabel"; text = "Recúerdame"; ObjectID = "3Zd-yo-f3T"; */
+"3Zd-yo-f3T.text" = "Recúerdame";
+
+/* Class = "UILabel"; text = "Próximo mantenimiento"; ObjectID = "3xl-Al-JUw"; */
+"3xl-Al-JUw.text" = "Próximo mantenimiento";
+
+/* Class = "UILabel"; text = "Te hemos mandado un correo con una liga para restaurar tu contraseña"; ObjectID = "43R-5X-7Gx"; */
+"43R-5X-7Gx.text" = "Te hemos mandado un correo con una liga para restaurar tu contraseña";
+
+/* Class = "UILabel"; text = "Mi seguro"; ObjectID = "47g-fz-1aP"; */
+"EtQ-Mg-oY0.text" = "My Insurance";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4Ux-Cg-BSm"; */
+"4Ux-Cg-BSm.text" = "Label";
+
+/* Class = "UILabel"; text = "Mi consumo"; ObjectID = "4hv-rB-Yau"; */
+"4hv-rB-Yau.text" = "My consume";
+
+/* Class = "UILabel"; text = "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumç"; ObjectID = "4xK-hx-kAg"; */
+"4xK-hx-kAg.text" = "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumç";
+
+/* Class = "UIButton"; normalTitle = "Recupera tu contraseña"; ObjectID = "58U-Ou-Lv0"; */
+"58U-Ou-Lv0.normalTitle" = "Recupera tu contraseña";
+
+/* Class = "UILabel"; text = "Nombre del recordatorio"; ObjectID = "59e-4W-q2m"; */
+"59e-4W-q2m.text" = "Reminder";
+
+/* Class = "UILabel"; text = "Velocidad máxima:"; ObjectID = "5Nx-8H-C3H"; */
+"5Nx-8H-C3H.text" = "Velocidad máxima:";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "5x8-KV-j4z"; */
+"5x8-KV-j4z.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "5yq-1Z-Kn5"; */
+"5yq-1Z-Kn5.text" = "-";
+
+/* Class = "UILabel"; text = "Recordatorios"; ObjectID = "6ft-ho-Tgo"; */
+"6ft-ho-Tgo.text" = "Reminders";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "7st-xP-kYG"; */
+"7st-xP-kYG.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "875-WI-Ssw"; */
+"875-WI-Ssw.text" = "0";
+
+/* Class = "UILabel"; text = "¿Qué tipo de mantenimiento será?"; ObjectID = "88z-ey-278"; */
+"88z-ey-278.text" = "¿Qué tipo de mantenimiento será?";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "8Re-Ga-yve"; */
+"8Re-Ga-yve.text" = "$0.00";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "8ZG-RZ-2Gw"; */
+"8ZG-RZ-2Gw.text" = "0";
+
+/* Class = "UITextField"; placeholder = "Contraseña"; ObjectID = "91O-lz-qYV"; */
+"91O-lz-qYV.placeholder" = "Contraseña";
+
+/* Class = "UILabel"; text = "Share My Spot"; ObjectID = "AMc-R3-y1m"; */
+"AMc-R3-y1m.text" = "Share My Spot";
+
+/* Class = "UILabel"; text = "Inicio"; ObjectID = "ATu-g5-vqt"; */
+"ATu-g5-vqt.text" = "Inicio";
+
+/* Class = "UIButton"; normalTitle = "GUARDAR"; ObjectID = "AUC-Fp-YMs"; */
+"AUC-Fp-YMs.normalTitle" = "GUARDAR";
+
+/* Class = "UILabel"; text = "Mi"; ObjectID = "AZ2-aq-aLK"; */
+"AZ2-aq-aLK.text" = "Mi";
+
+/* Class = "UILabel"; text = "Hora de Fin"; ObjectID = "Af3-6Y-YWO"; */
+"Af3-6Y-YWO.text" = "Hora de Fin";
+
+/* Class = "UILabel"; text = "Recordatorios"; ObjectID = "Afc-HY-CVl"; */
+"Afc-HY-CVl.text" = "Reminders";
+
+/* Class = "UIButton"; normalTitle = "SIGUIENTE"; ObjectID = "BhW-BP-gS7"; */
+"BhW-BP-gS7.normalTitle" = "SIGUIENTE";
+
+/* Class = "UIButton"; normalTitle = "inicia Sesión"; ObjectID = "Bhc-5U-APl"; */
+"Bhc-5U-APl.normalTitle" = "inicia Sesión";
+
+/* Class = "UITabBarItem"; title = "Más"; ObjectID = "Bie-py-yIs"; */
+"Bie-py-yIs.title" = "More";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "C66-Kz-4n1"; */
+"C66-Kz-4n1.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "MANTENIMIENTO GENERAL"; ObjectID = "D38-wt-5kk"; */
+"D38-wt-5kk.text" = "MANTENIMIENTO GENERAL";
+
+/* Class = "UILabel"; text = "Configuraciones"; ObjectID = "DOu-Vl-qBD"; */
+"DOu-Vl-qBD.text" = "Configuraciones";
+
+/* Class = "UILabel"; text = "Fecha de vencimiento para licencia"; ObjectID = "DPI-06-ZdN"; */
+"DPI-06-ZdN.text" = "Fecha de vencimiento para licencia";
+
+/* Class = "UILabel"; text = "Contacto de emergencia"; ObjectID = "Dka-ev-X5X"; */
+"Dka-ev-X5X.text" = "Contacto de emergencia";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ege-eU-b89"; */
+"Ege-eU-b89.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Locate"; ObjectID = "EtQ-FX-EG0"; */
+"EtQ-FX-EG0.text" = "Locate";
+
+/* Class = "UILabel"; text = "Mi seguro"; ObjectID = "EtQ-Mg-oY0"; */
+"EtQ-Mg-oY0.text" = "My Insurance";
+
+/* Class = "UILabel"; text = "Escoja una fecha"; ObjectID = "FNX-KQ-5Yr"; */
+"FNX-KQ-5Yr.text" = "Escoja una fecha";
+
+/* Class = "UILabel"; text = "Próximo mantenimiento"; ObjectID = "FS4-MA-nwJ"; */
+"FS4-MA-nwJ.text" = "Próximo mantenimiento";
+
+/* Class = "UILabel"; text = "Hora de Inicio"; ObjectID = "Fki-xa-KxN"; */
+"Fki-xa-KxN.text" = "Hora de Inicio";
+
+/* Class = "UILabel"; text = "No. de emergencia"; ObjectID = "GF8-lP-Ftr"; */
+"GF8-lP-Ftr.text" = "No. de emergencia";
+
+/* Class = "UILabel"; text = "3,000 km"; ObjectID = "GSi-uQ-6pi"; */
+"GSi-uQ-6pi.text" = "3,000 km";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "GUr-TZ-rOd"; */
+"GUr-TZ-rOd.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "Teléfono"; ObjectID = "GbR-Vg-q8I"; */
+"GbR-Vg-q8I.text" = "Teléfono";
+
+/* Class = "UILabel"; text = "D"; ObjectID = "Gcl-dU-pWR"; */
+"Gcl-dU-pWR.text" = "D";
+
+/* Class = "UILabel"; text = "Recordatorios"; ObjectID = "Hcb-aG-cBS"; */
+"Hcb-aG-cBS.text" = "Reminders";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Hyg-fz-DKx"; */
+"Hyg-fz-DKx.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Valet"; ObjectID = "Igq-nX-JHq"; */
+"Igq-nX-JHq.text" = "Valet";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JZ4-Cs-iuw"; */
+"JZ4-Cs-iuw.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KS4-rE-wEj"; */
+"KS4-rE-wEj.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Fecha"; ObjectID = "KTT-qt-tWf"; */
+"KTT-qt-tWf.text" = "Fecha";
+
+/* Class = "UILabel"; text = "Fin"; ObjectID = "Kwh-cY-a1J"; */
+"Kwh-cY-a1J.text" = "Fin";
+
+/* Class = "UILabel"; text = "Verificación Vehícular"; ObjectID = "MgN-q2-bCW"; */
+"MgN-q2-bCW.text" = "Verificación Vehícular";
+
+/* Class = "UIButton"; normalTitle = "12:00"; ObjectID = "Mzc-xc-O4U"; */
+"Mzc-xc-O4U.normalTitle" = "12:00";
+
+/* Class = "UILabel"; text = "Kilometraje"; ObjectID = "N9s-37-u5s"; */
+"N9s-37-u5s.text" = "Kilometraje";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NVI-jc-7Fs"; */
+"NVI-jc-7Fs.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "24:00"; ObjectID = "Nnz-rL-3eB"; */
+"Nnz-rL-3eB.normalTitle" = "24:00";
+
+/* Class = "UIButton"; normalTitle = "GUARDAR"; ObjectID = "O6g-qT-YW6"; */
+"O6g-qT-YW6.normalTitle" = "GUARDAR";
+
+/* Class = "UILabel"; text = "Modo secuestro"; ObjectID = "QIv-mE-7gb"; */
+"QIv-mE-7gb.text" = "Tickets";
+
+/* Class = "UIButton"; normalTitle = "ACTIVAR"; ObjectID = "R1Y-zj-0Lt"; */
+"R1Y-zj-0Lt.normalTitle" = "ACTIVAR";
+
+/* Class = "UIButton"; normalTitle = "GUARDAR"; ObjectID = "Rjd-Wi-PLF"; */
+"Rjd-Wi-PLF.normalTitle" = "GUARDAR";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "Rwm-4h-eGd"; */
+"Rwm-4h-eGd.normalTitle" = "CANCELAR";
+
+/* Class = "UIButton"; normalTitle = "ACTIVAR"; ObjectID = "SYB-Pb-frk"; */
+"SYB-Pb-frk.normalTitle" = "ACTIVAR";
+
+/* Class = "UIButton"; normalTitle = "GUARDAR"; ObjectID = "Sk9-98-sUb"; */
+"Sk9-98-sUb.normalTitle" = "GUARDAR";
+
+/* Class = "UILabel"; text = "Hoy, 20 de Agosto 2019"; ObjectID = "SzA-2g-qjC"; */
+"SzA-2g-qjC.text" = "Hoy, 20 de Agosto 2019";
+
+/* Class = "UILabel"; text = "Mayo 2019"; ObjectID = "TBr-eu-Pt7"; */
+"TBr-eu-Pt7.text" = "Mayo 2019";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "TKQ-zk-RM0"; */
+"TKQ-zk-RM0.text" = "A";
+
+/* Class = "UILabel"; text = "Recupera tu contraseña"; ObjectID = "UAH-JV-j8q"; */
+"UAH-JV-j8q.text" = "Recupera tu contraseña";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "UDd-ZY-GjJ"; */
+"UDd-ZY-GjJ.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "M"; ObjectID = "ULy-4h-k1y"; */
+"ULy-4h-k1y.text" = "M";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "ULz-3C-3qJ"; */
+"ULz-3C-3qJ.text" = "0";
+
+/* Class = "UILabel"; text = "V"; ObjectID = "UTd-or-e2p"; */
+"UTd-or-e2p.text" = "V";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "Uqv-RC-KLz"; */
+"Uqv-RC-KLz.normalTitle" = "CANCELAR";
+
+/* Class = "UIButton"; normalTitle = "Inicia Sesión"; ObjectID = "WIk-M9-I1J"; */
+"WIk-M9-I1J.normalTitle" = "Inicia Sesión";
+
+/* Class = "UILabel"; text = "Kilómetros Totales"; ObjectID = "WLU-r3-2EA"; */
+"WLU-r3-2EA.text" = "Kilómetros Totales";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WQb-9R-XCk"; */
+"WQb-9R-XCk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "S"; ObjectID = "WcI-PH-628"; */
+"WcI-PH-628.text" = "S";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WxQ-nk-WqZ"; */
+"WxQ-nk-WqZ.text" = "Label";
+
+/* Class = "UILabel"; text = "Combustible"; ObjectID = "XNc-kd-jRF"; */
+"XNc-kd-jRF.text" = "Combustible";
+
+/* Class = "UILabel"; text = "S"; ObjectID = "XSo-Xd-EPR"; */
+"XSo-Xd-EPR.text" = "S";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "Yl2-zu-mQb"; */
+"Yl2-zu-mQb.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "No tienes cargas :("; ObjectID = "ZfK-CX-FFR"; */
+"ZfK-CX-FFR.text" = "No tienes cargas :(";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Zhp-vi-CRt"; */
+"Zhp-vi-CRt.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "ZlZ-Bl-3bQ"; */
+"ZlZ-Bl-3bQ.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "Share my spot"; ObjectID = "Zo2-Lw-bvZ"; */
+"Zo2-Lw-bvZ.text" = "Share my spot";
+
+/* Class = "UILabel"; text = "Mantenimientos"; ObjectID = "aAv-Yq-Lg0"; */
+"aAv-Yq-Lg0.text" = "Mantenimientos";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "aGH-Jr-S7N"; */
+"aGH-Jr-S7N.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "-- km/hr"; ObjectID = "abv-wi-QRy"; */
+"abv-wi-QRy.text" = "-- km/hr";
+
+/* Class = "UILabel"; text = "¿Qué hacer en caso de robo o secuestro?"; ObjectID = "awG-zz-Nex"; */
+"awG-zz-Nex.text" = "¿Qué hacer en caso de robo o secuestro?";
+
+/* Class = "UIButton"; normalTitle = "SIGUIENTE"; ObjectID = "b1y-Gv-ivr"; */
+"b1y-Gv-ivr.normalTitle" = "SIGUIENTE";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bpq-cL-Fwb"; */
+"bpq-cL-Fwb.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "COMPARTIR"; ObjectID = "c2K-Z6-BaK"; */
+"c2K-Z6-BaK.normalTitle" = "COMPARTIR";
+
+/* Class = "UILabel"; text = "Configuracion"; ObjectID = "c7u-Fd-kMc"; */
+"c7u-Fd-kMc.text" = "Configuration";
+
+/* Class = "UILabel"; text = "M"; ObjectID = "c9U-Qc-H0D"; */
+"c9U-Qc-H0D.text" = "M";
+
+/* Class = "UILabel"; text = "Mi"; ObjectID = "cN3-7D-Yov"; */
+"cN3-7D-Yov.text" = "Mi";
+
+/* Class = "UILabel"; text = "A1731045"; ObjectID = "cca-jN-5d9"; */
+"cca-jN-5d9.text" = "A1731045";
+
+/* Class = "UIButton"; normalTitle = "GUARDAR"; ObjectID = "dJ3-22-dcg"; */
+"dJ3-22-dcg.normalTitle" = "GUARDAR";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "e6u-Qv-WsP"; */
+"e6u-Qv-WsP.normalTitle" = "CANCELAR";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "eHT-mf-iIw"; */
+"eHT-mf-iIw.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "Nombre"; ObjectID = "eco-uO-HTC"; */
+"eco-uO-HTC.text" = "Nombre";
+
+/* Class = "UILabel"; text = "¿Entre tantas contraseñas no encuentras la de tu spot?"; ObjectID = "f6l-XK-ASO"; */
+"f6l-XK-ASO.text" = "¿Entre tantas contraseñas no encuentras la de tu spot?";
+
+/* Class = "UIButton"; normalTitle = "ACTIVAR"; ObjectID = "fAZ-TI-fFh"; */
+"fAZ-TI-fFh.normalTitle" = "ACTIVAR";
+
+/* Class = "UILabel"; text = "Horario"; ObjectID = "fFP-cY-2mX"; */
+"fFP-cY-2mX.text" = "Horario";
+
+/* Class = "UILabel"; text = "Tipo de combustible"; ObjectID = "fGC-ZQ-WKF"; */
+"fGC-ZQ-WKF.text" = "Tipo de combustible";
+
+/* Class = "UILabel"; text = "Placas"; ObjectID = "fZK-IY-c18"; */
+"fZK-IY-c18.text" = "Placas";
+
+/* Class = "UILabel"; text = "Mi Vehículo"; ObjectID = "gLq-Mu-bzy"; */
+"nzj-JY-Q4F.text" = "My vehicle";
+
+/* Class = "UIButton"; normalTitle = "GUARDAR"; ObjectID = "gob-Ow-85s"; */
+"gob-Ow-85s.normalTitle" = "GUARDAR";
+
+/* Class = "UIButton"; normalTitle = "Recuperar mi contraseña"; ObjectID = "gpv-EZ-4Wy"; */
+"gpv-EZ-4Wy.normalTitle" = "Recuperar mi contraseña";
+
+/* Class = "UILabel"; text = "Horario"; ObjectID = "h2n-Md-tOv"; */
+"h2n-Md-tOv.text" = "Horario";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hFn-PV-9Lk"; */
+"hFn-PV-9Lk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Póliza"; ObjectID = "iR9-6o-oUn"; */
+"iR9-6o-oUn.text" = "Póliza";
+
+/* Class = "UIButton"; normalTitle = "SIGUIENTE"; ObjectID = "izj-YH-nyr"; */
+"izj-YH-nyr.normalTitle" = "SIGUIENTE";
+
+/* Class = "UILabel"; text = "No tienes recordatorios aún"; ObjectID = "jAB-Oo-wb2"; */
+"jAB-Oo-wb2.text" = "You don't have reminders yet.";
+
+/* Class = "UILabel"; text = "Cerrar Sesión"; ObjectID = "jsk-7U-pbp"; */
+"jsk-7U-pbp.text" = "Cerrar Sesión";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kyc-pX-juA"; */
+"kyc-pX-juA.text" = "Label";
+
+/* Class = "UILabel"; text = "Modo guardia"; ObjectID = "l0B-nH-LSB"; */
+"l0B-nH-LSB.text" = "Guard Mode";
+
+/* Class = "UILabel"; text = "Cargas del mes"; ObjectID = "l6s-r9-bm8"; */
+"l6s-r9-bm8.text" = "Cargas del mes";
+
+/* Class = "UILabel"; text = "Valet"; ObjectID = "l7X-tR-F3E"; */
+"l7X-tR-F3E.text" = "Valet";
+
+/* Class = "UILabel"; text = "Recordatorios"; ObjectID = "lay-jX-1Ei"; */
+"lay-jX-1Ei.text" = "Recordatorios";
+
+/* Class = "UILabel"; text = "V"; ObjectID = "m0k-sS-p4u"; */
+"m0k-sS-p4u.text" = "V";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "mFh-0d-dAi"; */
+"mFh-0d-dAi.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "You have not added alarms yet"; ObjectID = "mLS-pm-gtJ"; */
+"mLS-pm-gtJ.text" = "You have not added alarms yet";
+
+/* Class = "UILabel"; text = "Share My Spot"; ObjectID = "n22-Qr-hEu"; */
+"n22-Qr-hEu.text" = "Share My Spot";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nG1-JF-cwK"; */
+"nG1-JF-cwK.text" = "Label";
+
+/* Class = "UILabel"; text = "Mi vehículo"; ObjectID = "nzj-JY-Q4F"; */
+"nzj-JY-Q4F.text" = "My vehicle";
+
+/* Class = "UILabel"; text = "¿Estás seguro que quieres activar el modo valet?"; ObjectID = "oSA-bg-KXA"; */
+"oSA-bg-KXA.text" = "¿Estás seguro que quieres activar el modo valet?";
+
+/* Class = "UIButton"; normalTitle = "ACTIVAR"; ObjectID = "pMO-8K-Dm3"; */
+"pMO-8K-Dm3.normalTitle" = "ACTIVAR";
+
+/* Class = "UILabel"; text = "Litros Totales"; ObjectID = "paw-io-SpS"; */
+"paw-io-SpS.text" = "Litros Totales";
+
+/* Class = "UILabel"; text = "J"; ObjectID = "pfz-Mg-6RV"; */
+"pfz-Mg-6RV.text" = "J";
+
+/* Class = "UILabel"; text = "24:0"; ObjectID = "q1w-im-Ndz"; */
+"q1w-im-Ndz.text" = "24:0";
+
+/* Class = "UILabel"; text = "Vencimiento"; ObjectID = "q9q-8U-8fb"; */
+"q9q-8U-8fb.text" = "Vencimiento";
+
+/* Class = "UILabel"; text = "Total Kilómetros"; ObjectID = "qL1-g5-UIL"; */
+"qL1-g5-UIL.text" = "Total Kilómetros";
+
+/* Class = "UITextField"; placeholder = "Usuario"; ObjectID = "qOx-xK-umJ"; */
+"qOx-xK-umJ.placeholder" = "Usuario";
+
+/* Class = "UILabel"; text = "Kilometraje:"; ObjectID = "r5h-oz-8TY"; */
+"r5h-oz-8TY.text" = "Kilometraje:";
+
+/* Class = "UILabel"; text = "Etiqueta"; ObjectID = "ra5-ik-3sG"; */
+"ra5-ik-3sG.text" = "Etiqueta";
+
+/* Class = "UILabel"; text = "Días"; ObjectID = "s21-WZ-bBh"; */
+"s21-WZ-bBh.text" = "Días";
+
+/* Class = "UILabel"; text = "Agregar Modo Guardia"; ObjectID = "sTR-PK-OGJ"; */
+"sTR-PK-OGJ.text" = "Agregar Modo Guardia";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "scO-s3-Ghi"; */
+"scO-s3-Ghi.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "J"; ObjectID = "tR4-Rv-7ha"; */
+"tR4-Rv-7ha.text" = "J";
+
+/* Class = "UITabBarItem"; title = "Historial"; ObjectID = "tcV-Od-U6P"; */
+"tcV-Od-U6P.title" = "History";
+
+/* Class = "UILabel"; text = "miércoles, abril 24, 2019"; ObjectID = "v2m-ut-Xef"; */
+"v2m-ut-Xef.text" = "miércoles, abril 24, 2019";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "vEX-jK-W9H"; */
+"vEX-jK-W9H.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "0:0"; ObjectID = "vFd-kd-IDs"; */
+"vFd-kd-IDs.text" = "0:0";
+
+/* Class = "UILabel"; text = "Lo sentimos, el correo que ingresaste no se encuentra en nuestra base de datos."; ObjectID = "vGj-g9-3mg"; */
+"vGj-g9-3mg.text" = "Lo sentimos, el correo que ingresaste no se encuentra en nuestra base de datos.";
+
+/* Class = "UILabel"; text = "Kilometraje (Km)"; ObjectID = "vfO-pe-3CA"; */
+"vfO-pe-3CA.text" = "Kilometraje (Km)";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wja-vg-h0D"; */
+"wja-vg-h0D.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xUf-hg-Z8Y"; */
+"xUf-hg-Z8Y.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "GUARDAR"; ObjectID = "xXY-41-diZ"; */
+"xXY-41-diZ.normalTitle" = "GUARDAR";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "xgR-Ei-ncq"; */
+"xgR-Ei-ncq.normalTitle" = "CANCELAR";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "xuL-Nv-Asf"; */
+"xuL-Nv-Asf.text" = "L";
+
+/* Class = "UIButton"; normalTitle = "GUARDAR"; ObjectID = "xva-ef-bqn"; */
+"xva-ef-bqn.normalTitle" = "GUARDAR";
+
+/* Class = "UILabel"; text = "Aseguradora"; ObjectID = "xwW-vO-cTg"; */
+"xwW-vO-cTg.text" = "Aseguradora";
+
+/* Class = "UILabel"; text = "Renovar Licencia"; ObjectID = "yJf-Oa-57e"; */
+"yJf-Oa-57e.text" = "Renovar Licencia";
+
+/* Class = "UILabel"; text = "12:00 PM"; ObjectID = "yNW-aC-ktP"; */
+"yNW-aC-ktP.text" = "12:00 PM";
+
+/* Class = "UILabel"; text = "-- km/hr"; ObjectID = "ykh-Fw-Hg2"; */
+"ykh-Fw-Hg2.text" = "-- km/hr";
+
+/* Class = "UITabBarItem"; title = "Ayuda"; ObjectID = "yoS-8g-U48"; */
+"yoS-8g-U48.title" = "SOS";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "z2H-Bb-3vI"; */
+"z2H-Bb-3vI.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "No te preocupes, introduce tu correo registrado y te mandaremos un correo con una liga para que cambies tu contraseña."; ObjectID = "z3b-6y-FNr"; */
+"z3b-6y-FNr.text" = "No te preocupes, introduce tu correo registrado y te mandaremos un correo con una liga para que cambies tu contraseña.";
+
+/* Class = "UILabel"; text = "Casa"; ObjectID = "zWa-zx-7V9"; */
+"zWa-zx-7V9.text" = "Casa";
+
+/* Class = "UILabel"; text = "No. de Póliza"; ObjectID = "zXk-bu-RXr"; */
+"zXk-bu-RXr.text" = "No. de Póliza";
+
+/* Class = "UILabel"; text = "12:00 PM"; ObjectID = "zxI-lK-D4A"; */
+"zxI-lK-D4A.text" = "12:00 PM";

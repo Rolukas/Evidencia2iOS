@@ -1,0 +1,117 @@
+
+/* Class = "UILabel"; text = "Recúerdame"; ObjectID = "3Zd-yo-f3T"; */
+"3Zd-yo-f3T.text" = "Recúerdame";
+
+/* Class = "UILabel"; text = "Mi consumo"; ObjectID = "4hv-rB-Yau"; */
+"4hv-rB-Yau.text" = "Mi consumo";
+
+/* Class = "UIButton"; normalTitle = "Recupera tu contraseña"; ObjectID = "58U-Ou-Lv0"; */
+"58U-Ou-Lv0.normalTitle" = "Recupera tu contraseña";
+
+/* Class = "UIButton"; normalTitle = "inicia Sesión"; ObjectID = "7Mb-oa-8xd"; */
+"7Mb-oa-8xd.normalTitle" = "Inicia Sesión";
+
+/* Class = "UITextField"; placeholder = "Contraseña"; ObjectID = "91O-lz-qYV"; */
+"91O-lz-qYV.placeholder" = "Contraseña";
+
+/* Class = "UILabel"; text = "Carga de Combustible"; ObjectID = "AMc-R3-y1m"; */
+"AMc-R3-y1m.text" = "Share My Spot";
+
+/* Class = "UITabBarItem"; title = "Más"; ObjectID = "Bie-py-yIs"; */
+"Bie-py-yIs.title" = "Más";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "C66-Kz-4n1"; */
+"C66-Kz-4n1.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Mi seguro"; ObjectID = "EtQ-Mg-oY0"; */
+"EtQ-Mg-oY0.text" = "Mi seguro";
+
+/* Class = "UILabel"; text = "Recordatorios"; ObjectID = "Hcb-aG-cBS"; */
+"Hcb-aG-cBS.text" = "Recordatorios";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Hyg-fz-DKx"; */
+"Hyg-fz-DKx.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Valet"; ObjectID = "Igq-nX-JHq"; */
+"Igq-nX-JHq.text" = "Valet";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JZ4-Cs-iuw"; */
+"JZ4-Cs-iuw.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KS4-rE-wEj"; */
+"KS4-rE-wEj.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Share my Spot"; ObjectID = "Knq-Jx-fgI"; */
+"Knq-Jx-fgI.text" = "Share my Spot";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NVI-jc-7Fs"; */
+"NVI-jc-7Fs.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Recordatorios"; ObjectID = "QIv-mE-7gb"; */
+"QIv-mE-7gb.text" = "Multas";
+
+/* Class = "UIButton"; normalTitle = "CANCELAR"; ObjectID = "Rwm-4h-eGd"; */
+"Rwm-4h-eGd.normalTitle" = "CANCELAR";
+
+/* Class = "UIButton"; normalTitle = "ACTIVAR"; ObjectID = "SYB-Pb-frk"; */
+"SYB-Pb-frk.normalTitle" = "ACTIVAR";
+
+/* Class = "UILabel"; text = "Calle Volcán del Colli #1129, Zapopan Jalisco"; ObjectID = "W3c-FX-Sn8"; */
+"W3c-FX-Sn8.text" = "Calle Volcán del Colli #1129, Zapopan Jalisco";
+
+/* Class = "UIButton"; normalTitle = "Inicia Sesión"; ObjectID = "WIk-M9-I1J"; */
+"Bhc-5U-APl.normalTitle" = "Inicia Sesión";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WQb-9R-XCk"; */
+"WQb-9R-XCk.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Zhp-vi-CRt"; */
+"Zhp-vi-CRt.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Share my spot"; ObjectID = "Zo2-Lw-bvZ"; */
+"Zo2-Lw-bvZ.text" = "Share my spot";
+
+/* Class = "UILabel"; text = "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumç"; ObjectID = "b9F-P4-NEp"; */
+"b9F-P4-NEp.text" = "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumç";
+
+/* Class = "UILabel"; text = "Configuracion"; ObjectID = "c7u-Fd-kMc"; */
+"c7u-Fd-kMc.text" = "Configuración";
+
+/* Class = "UILabel"; text = "Locate"; ObjectID = "ebF-59-y05"; */
+"ebF-59-y05.text" = "Locate";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hFn-PV-9Lk"; */
+"hFn-PV-9Lk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "RESSER-Blanco 2012-JMC4242-57039"; ObjectID = "hun-xT-9zP"; */
+"hun-xT-9zP.text" = "RESSER-Blanco 2012-JMC4242-57039";
+
+/* Class = "UILabel"; text = "RESSER-BLANCO 2012-JMC4242-57039"; ObjectID = "jug-U6-7nJ"; */
+"jug-U6-7nJ.text" = "RESSER-BLANCO 2012-JMC4242-57039";
+
+/* Class = "UILabel"; text = "Modo guardia"; ObjectID = "l0B-nH-LSB"; */
+"l0B-nH-LSB.text" = "Modo guardia";
+
+/* Class = "UILabel"; text = "Valet"; ObjectID = "l7X-tR-F3E"; */
+"l7X-tR-F3E.text" = "Valet";
+
+/* Class = "UILabel"; text = "Mi vehículo"; ObjectID = "nzj-JY-Q4F"; */
+"nzj-JY-Q4F.text" = "Mi vehículo";
+
+/* Class = "UILabel"; text = "¿Estás seguro que quieres activar el modo valet?"; ObjectID = "oSA-bg-KXA"; */
+"oSA-bg-KXA.text" = "¿Estás seguro que quieres activar el modo valet?";
+
+/* Class = "UITextField"; placeholder = "Usuario"; ObjectID = "qOx-xK-umJ"; */
+"qOx-xK-umJ.placeholder" = "Usuario";
+
+/* Class = "UIButton"; normalTitle = "Contrata"; ObjectID = "qe0-nd-5Bg"; */
+"qe0-nd-5Bg.normalTitle" = "Contrata";
+
+/* Class = "UITabBarItem"; title = "Historial"; ObjectID = "tcV-Od-U6P"; */
+"tcV-Od-U6P.title" = "Historial";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xUf-hg-Z8Y"; */
+"xUf-hg-Z8Y.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Ayuda"; ObjectID = "yoS-8g-U48"; */
+"yoS-8g-U48.title" = "Ayuda";

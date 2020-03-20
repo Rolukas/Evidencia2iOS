@@ -1,0 +1,981 @@
+/* 
+  Localizable.strings
+  RastreoGpsMovil
+
+  Created by Rolando Sumoza Rivas on 5/6/19.
+  Copyright © 2019 Rolando. All rights reserved.
+*/
+//******** Textos de contrata ***********//
+
+"Contrata_Button" = "Contract";
+
+"Login_Button" = "Login";
+
+"Tittle_info_one" = "Locate";
+
+"Tittle_info_two" = "Notify";
+
+"Tittle_info_trhee" = "Known";
+
+"Contrata_info_one" = "Through satellite tracking, you know the location of your vehicles, the routes you have traveled or the kilometers traveled in real time.";
+
+"Contrata_info_two" = "Receive notifications in real time if the speed limit has been exceeded.";
+
+"Contrata_info_three" = "Capture your fuel load and use Spot intelligence and know your fuel consumption pattern.";
+
+//******** Textos de Login ***********//
+
+"login_User_Placeholder" = "User";
+
+"login_Pass_Placeholder" = "Password";
+
+"login_Alert_tittle" = "Error";
+
+"login_Alert_message" = "An error has occurred, try again later";
+
+"login_Alert_message_button" = "Close";
+
+"login_error_tittle" = "Error";
+
+"login_error_message" = "User or Password incorrect";
+
+"login_error_button" = "Close";
+
+"update_title" = "Required update";
+
+"update_body" = "Update the application so you can enjoy the best features in your SPOT !! \n\n (The update is necessary to use SPOT)";
+
+"rememberMe_Label" = "Remember me";
+
+"login_noInternet_alert" = "No internet connection";
+
+"login_button_title" = "Login";
+
+"update_cancelUpdate_button" = "Cancel";
+
+"update_acceptUpdate_button" = "Accept";
+
+"update_AppStore_Button" = "Go to AppStore";
+
+//********** Textos de Mapa ***********//
+
+"search_Bar_Placeholder" = "Search vehicle";
+
+"map_Alert_Tittle_Conexion" = "Without connection";
+
+"map_Alert_Message" = "An error has occurred, try again later";
+
+"map_Alert_Message_Button" = "Close";
+
+"map_Menu_Button_Fuel_Load" = "Fuel load";
+
+"map_Menu_Button_Watch" = "Watch mode";
+
+"map_Menu_LogOut" = "Sign off";
+
+"map_Menu_MyVehicle" = "My vehicle";
+
+"map_Menu_AlertSearch" = "A vehicle with that name or id doesn't exists";
+
+"map_MenuItem_Help" = "SOS";
+
+"map_MenuItem_Historic" = "Historic";
+
+"map_MenuItem_More" = "More";
+
+// Alerta de rojos
+
+"map_AlertNull_title" = "¡Atention!";
+
+"map_AlertNull_title1" = "You have";
+
+"map_AlertNull_title2" = "vehicles without connection";
+
+"map_AlertNull_title3" = "Verify that the vehicles are in an area with network coverage";
+
+"map_AlertNull_message" = "GPS devices have inconveniences, \n please verify that the devices are in a network coverage area.";
+
+"map_AlertNull_Option1" = "Request Support";
+
+"map_AlertNull_Option2" = "Agree";
+
+"map_AlertReportNull_Title" = "Success!";
+
+"map_AlertReportNull_Message" = "From now, a report will be generated. We will contact you soon.";
+
+//********* Textos de Carga Rapida ********//
+
+"fast_Charge_Placeholder" = "Liters";
+
+"fast_Charge_Tittle_Success" = "Success";
+
+"fast_Charge_Body_Success" = "Your fuel load was saved!";
+
+"fast_Charge_Dismiss_Success" = "Close";
+
+"fast_Charge_Tittle_Error" = "Error";
+
+"fast_Charge_Body_Error" = "Failed to save your fuel load \n try again later.";
+
+"fast_Charge_Dismiss_Error" = "Close";
+
+//******** Textos para Modo vigia fast *******//
+
+"fast_Watch_Mode_Tittle_Error" = "Without connection";
+
+"fast_Watch_Mode_Body_Error" = "try again later";
+
+"fast_Watch_Mode_Dismiss" = "Close";
+
+"fast_Watch_Mode_Tittle_Active" = "";
+
+"fast_Watch_Mode_Body_Active" = "";
+
+"fast_Watch_Mode_Dissmiss_Active" = "";
+
+//******** Textos para Historico ************//
+
+"historic_Time_LabelC" = "Time";
+
+"historic_Tittle_ErrorC" = "Without connection";
+
+"historic_Body_ErrorC" = "try again later";
+
+"historic_Dismiss_ErrorC" = "Close";
+
+"historic_Label_Km" = "Mileage:";
+
+"historic_Label_Mesuring_Km" = "Km";
+
+"historic_Label_Vl" = "Maximum speed:";
+
+"historic_Label_Mesuring_Km/hr" = "km/hr";
+
+"historic_Button_Cancel_Date" = "Cancel";
+
+"historic_Button_Accept_Date" = "Accept";
+
+"historic_Info_Start_Interval" = "Start interval";
+
+"historic_Info_End_Interval" = "End interval";
+
+"historic_Info_VehicleOff_Title" = "Vehicle Off";
+
+"Historic_info_VehicleOff_Subtitle" = " by ";
+
+"historic_Info_VehicleOff_Hour" = " Time at ";
+
+"historic_Info_VehicleOff_Hours" = " Hours at ";
+
+"historic_Info_VehicleOff_Min" = " Minute to ";
+
+"historic_Info_VehicleOff_Mins" = " Minutes to ";
+
+"historic_Info_VMR_Title" = "Maximum route speed";
+
+"historic_Info_VMR_Km_Subtitle" = "km/hr at";
+
+"historic_Info_Start/End_Subtitle" = "at";
+
+// new
+
+"historic_Info_VehicleOff_Hour_&" = " Hour and";
+"historic_Info_VehicleOff_Hours_&" = " Hours and";
+"historic_Info_VehicleOff_Hour_Minutes" = " minutes at";
+
+"histroic_Tittle_ErrorP" = "Error";
+
+"historic_Body_ErrorP" = "There are not positions for this vehicle name or vehicle ID";
+
+"historic_Dismiss_ErrorP" = "Close";
+
+//********** Textos de Protocolo ******************//
+"protocol_SOS_carCrash_Title" = "Sinister";
+
+"protocol_SOS_stole_Title" = "Stole";
+
+"protocol_SOS_title" = "¿What to do in case of robbery or car crash?";
+
+"protocol_Label_1" = "Report to our cabin 24H at ";
+
+"protocol_Label_2" = "or you can also contact the ";
+
+"protocol_Label_3" = " Your Identifier is the ";
+
+"protocol_Label_4" = "Communicate to emergencies and report theft to ";
+
+"protocol_Label_5" = "Performs the theft report.";
+
+"protocol_Label_6" = "Call our 24H cab and provide the ";
+
+"protocol_Label_7" = "report number";
+
+"protocol_Label_8" = "The 24H cabin will continue the operation, remain localizable during its duration.";
+
+"protocol_Label_9" = "Contact the";
+
+"protocol_Label_10" = " to the number ";
+
+"protocol_Label_11" = " Your policy is the ";
+
+"protocol_Label_12" = "valid until ";
+
+"protocol_Label_13" = "The 24H cabin will continue the operative stay localizable during its duration";
+
+"protocol_Error_title" = "Without connection";
+
+"protocol_Error_Body" = "try again later";
+
+"protocol_Error_Dismiss" = "Close";
+
+"protocol_Steal_Tag" = "Robbery";
+
+"protocol_Crash_Tag" = "Collision";
+
+"protocol_Asist_Tag" = "Help";
+
+"protocolo_copied_success" = "Success!";
+
+"protocolo_copied_message" = "Copied to clipboard";
+
+//*********** Textos de mi seguro *************//
+
+"insurance_InsuranceCarrier_label" = "Insurance carrier";
+
+"insurance_PolicyNumber_label" = "Policy number";
+
+"insurance_Expiration_label" = "Expiration";
+
+"insurance_EmergencyNumber_label" = "Emergency number";
+
+"insurance_Header_Contact" = "Emergency contact";
+
+"insurance_Table_Nombre_Placeholder" = "Name";
+
+"insurance_Table_Phone_Placeholder" = "Phone";
+
+"insurance_Header_Policy" = "Policy";
+
+"insurance_RenewReminder_label" = "Renew reminder";
+
+//
+
+"insurance_Error_Title" = "Without connection";
+
+"insurance_Error_Body" = "try again later";
+
+"insurance_Dismiss" = "Close";
+
+"insurance_Table_Insurance" = "Insurance carrier";
+
+"insurance_Table_Policy" = "Policy Number";
+
+"insurance_Table_Expiration" = "Expiration";
+
+"insurance_Table_Emergenci" = "Emergency Number";
+
+"insurance_Table_Nombre" = "Name";
+
+"insurance_Table_Phone" = "Phone";
+
+"insurance_Table_Insurance_Placeholder" = "Insurance Name";
+
+"insurance_Header_Contact" = "Emergency contact";
+
+"insurance_picker_Cancel" = "Any";
+
+"insurance_incomplete_Alert" = "The insurance information must be complete to update it";
+
+//*************** Textos de configuración de alertas ***********//
+
+"config_Block_Title_Ask" = "Engine Block";
+
+"config_Block_Message_Ask" = "You are about to request an engine lock \n\n Are you sure?";
+
+"config_Block_Cancel_Button" = "Cancel";
+
+"config_Block_Accept_Button" = "Accept";
+
+"config_Unblock_Title_Ask" = "Unlocking Engine";
+
+"config_Unblock_Message_Ask" = "You are about to request the unlocking of motor \n\n Are you sure?";
+
+"config_Email_Error_Title" = "Invalid Mail";
+
+"config_Email_Message_Error" = "The email provided is not correct.";
+
+"config_Message_Dissmis" = "Close";
+//**
+
+"portal_Info_Help" = "Administrative Portal";
+
+"admin_Portal" = "Administrative Portal";
+
+"go_To_My_Portal" = "Go to my Portal";
+
+"portal_Text" = "Portal";
+
+"config_Message_Title_Notificaciones" = "Receive notifications";
+
+"config_Message_Body_Notificaciones" = "Activating the option Receive push notifications unlocks the different options that Spot gives you, since your car has a lot to tell you.";
+//**
+"config_Message_Title_Email" = "Receive Email";
+
+"config_Message_Body_Email" = "When activating the Notifications by mail option you must enter a valid email to unlock the options that Spot gives you, since your car has much to tell you.";
+//**
+"config_Message_Title_Email_Label" = "Mail";
+
+"config_Message_Body_Email_Label" = "Enter a valid email in which you want the alerts generated by your vehicle to arrive.";
+//**
+"config_Message_Title_Ignition" = "Ignitions";
+
+"config_Message_Body_Ignition" = "Activating this option when your vehicle turns on or off will receive a notification (Push / Mail according to the selected options).";
+//**
+"config_Message_Title_Vel" = "Notification Excess speed";
+
+"config_Message_Body_Vel" = "When your vehicle exceeds the limit specified in the lower field you will receive a notification (Push / Mail according to the selected options).";
+//**
+"config_Message_Title_Vel_Label" = "Maximum speed";
+
+"config_Message_Body_Vel_Label" = "Specify the allowed speed limit to which your unit can circulate. If it is violated you will receive a notification (Push / Mail according to the selected options).";
+//**
+"config_Message_Title_Batery" = "Battery Disconnect";
+
+"config_Message_Body_Batery" = "In the event that the battery of your vehicle is disconnected, you will receive a notification (Push / Mail according to the selected options).";
+//**
+"config_Message_Title_Batery_Status" = "Vehicle Battery";
+
+"config_Message_Body_Batery_Status" = "When the battery of your vehicle is low you will receive a notification (Push / Mail according to the selected options).";
+//**
+"config_Message_Title_Assist" = "Attendance button";
+
+"config_Message_Body_Assist" = "When a panic button or an assist button is activated You will receive a notification (Push / Mail according to the selected options, specialized hardware is required, contact your Spot provider for more information).";
+//**
+"config_Message_Title_Valet" = "Watch mode";
+
+"config_Message_Body_Valet" = "When your vehicle leaves a radius of 100 m (Equivalent to a block) you will receive a notification (Push / Mail depending on the options selected).";
+//**
+"config_Message_Title_Share" = "Share my Spot";
+
+"config_Message_Body_Share" = "Share the location of the vehicle with your loved ones.";
+//**
+"config_Message_Title_Block" = "Blocking Information";
+
+"config_Message_Body_Block" = "This option sends the ignition lock / unlock when receiving the next vehicle position.";
+//**
+"portal_Info_Label" = "Administrative Portal";
+
+"portal_Info_Button" = "Portal";
+
+"portal_Info_Message" = "Go to your administrative portal to manage your account and devices.";
+//**
+
+"config_Engine_Message" = "try again later";
+
+"config_Error_Conection_Title" = "Without connection";
+
+"config_Error_Conection_Body" = "try again later";
+
+"config_Message_Unavaliable" = "Your vehicle does not have this feature to request to communicate with your SPOT provider.";
+
+"config_Section_Notification" = "Receive notifications";
+
+"config_Section_Email" = "Receive Email";
+
+"config_Section_Correo" = "Mail";
+
+"config_Section_Ignite" = "Ignitions";
+
+"config_Section_Vl" = "Maximum speed";
+
+"config_Section_Max_Vl" = "Maximum speed";
+
+"config_Section_Disconnection" = "Power Disconnect";
+
+"config_Section_Batery" = "Vehicle Battery";
+
+"config_Section_Assist" = "Support button";
+
+"config_Section_Towed" = "Towed Unit";
+
+"config_Section_Watch_Mode" = "Watch Mode";
+
+"config_Section_Block_Engine" = "Lock Engine";
+
+"config_Header_General" = "General Notifications";
+
+"config_Header_Functions" = "Functions";
+
+//bloqueo mensajes
+"engine_Block_title_pending" = "Pending lock function";
+
+"engine_Block_body_pending" = "Your vehicle has a pending lock function.";
+
+"engine_Unlock_title_pending" = "Unlock function pending";
+
+"engine_Unlock_body_pending" = "Your vehicle has a pending unlocking feature.";
+
+"config_Title_Unavaliable" = "The function is not available";
+
+"config_Body_Unavaliable" = "Your equipment does not have an engine block, for more information contact your SPOT provider.";
+
+"config_Engine_Off_Title_Message" = "Lock in process";
+
+"config_Engine_Off_Body_Message" = "Your vehicle is blocked in a few moments, this may take a while wait please ...";
+
+"config_Engine_On_Title_Message" = "Ignition in process";
+
+"config_Engine_On_Body_Message" = "Your vehicle will be unlocked in a few moments, this may take wait please ...";
+
+"config_Engine_Off_Success_Title" = "Successful blocking";
+
+"config_Engine_Off_Success_Body" = "Your vehicle was successfully blocked";
+
+"config_Engine_On_Success_Title" = "Successful unlocking";
+
+"config_Engine_On_Success_Body" = "Your vehicle unlocks successfully";
+
+"label_Popup_On" = "Unlocking ...";
+
+"label_Popup_Off" = "Performing Blocking ...";
+
+"close_button_Engine" = "Close";
+
+//****************** Textos de mi vehiculo ************************//
+
+"vehicle_edit_name_title" = "Edit Name";
+
+"vehicle_edit_name_message" = "Edit the name of the vehicle";
+
+"vehicle_edit_name_placeholder" = "Vehicle Name";
+
+"vehicle_edit_plates_title" = "Edit Plates";
+
+"vehicle_edit_plates_message" = "Edit the plates of the vehicle";
+
+"vehicle_edit_name_placeholder" = "Plates";
+
+"vehicle_edit_odometer_title" = "Edit Odometer";
+
+"vehicle_edit_odometer_message" = "Edit the odometer of the vehicle";
+
+"vehicle_edit_odometer_title" = "Odometer";
+
+"vehicle_Unblock_Engine_Title" = "Unlocking Engine";
+
+"Vehicle_Unblock_Engine_Body" = "You are about to request the unlocking of motor \n\n Are you sure?";
+
+"vehicle_Block_Engine_Title" = "Engine Block";
+
+"vehicle_Block_Engine_Body" = "You are about to request an engine lock \n\n Are you sure?";
+
+"vehicle_Block_Button_Cancel" = "Cancel";
+
+"vehicle_Block_Button_Accept" = "Accept";
+
+"vehicle_Title_Error" = "Without connection";
+
+"vehicle_Body_Error" = "try again later";
+
+"vehicle_Dismiss_Error" = "Close";
+
+"vehicle_Engine_On_Title_Message" = "Ignition in process";
+
+"vehicle_Engine_Off_Title_Message" = "Lock in process";
+
+"vehicle_Engine_On_Body_Message" = "Try later";
+
+"vehicle_Engine_Unavaliable_Title" = "The function is not available";
+
+"vehicle_Engine_Unavaliable_Body" = "Your vehicle does not have this function To request contact with your SPOT provider.";
+
+"vehicle_Header" = "FUNCTIONS";
+
+"vehicle_Section_Name" = "Name";
+
+"vehicle_Placeholder_Name" = "My vehicle";
+
+"Vehicle_Section_Placas" = "Vehicle plates";
+
+"vehicle_Section_Km" = "Mileage";
+
+"vehicle_Section_Gas" = "Fuel type";
+
+"vehicle_Section_SeriesNumber" = "Serial Number";
+
+"vehicle_Section_Block" = "Engine Block";
+
+"vehicle_Section_Functions" = "Functions";
+
+"vehicle_Section_Watch" = "Watch mode";
+
+"vehicle_Section_Share" = "Share my Spot";
+
+"vehicle_Section_EngineBlockTitle_New" = "Engine Block";
+
+"vehicle_Section_EngineBlockMessage_New" = "The Engine Block option depends of each Spot equipment, for more information contact your spot provider";
+
+//****************** Textos de Combustible **************************//
+"oil_Empty_Charges_Message" = "There is not fuel loads for this month.";
+
+"oil_Title_New_Charge" = "New load (Liters)";
+
+"oil_Message_New_Charge" = "When making a new load, a cut of kilometers and time is made from your last load.";
+
+"oil_Cancel_New_Charge"= "Cancel";
+
+"oil_Aceptar_New_Charge" = "Accept";
+
+"oil_Total_Kilometers" = "Total Kilometers";
+
+"oil_Total_Cost" = "Fuel Total Cost";
+
+"oil_Total_Liters" = "Total Liters";
+
+"oil_Total_ChargesMonth" = "Loads of the month";
+
+"oil_Configuration_Placeholder" = "Number of liters";
+
+"oil_Title_Success" = "Upload successful!!";
+
+"oil_Message_Success" = "Your upload was successfully saved";
+
+"oil_Warning_Empty_Charge" = "Error";
+
+"oil_Warning_Empty_Charge_Message" = "The value of the cost or the liters cannot be 0 or be empty";
+
+"oil_Save_Option" = "Save";
+
+"oil_Cancel_Option" = "Cancel";
+
+"oil_Title_Options" = "¿What would you like to do?";
+
+"oil_View_Map_Option" = "Open map in browser";
+
+"oil_Edit_Charge_Option" = "Edit charge";
+
+"oil_Error_Title" = "Without connection";
+
+"oil_Error_Message" = "try again later";
+
+"oil_Success_Delete_Tittle" = "Right";
+
+"oil_Success_Message"="Your load was successfully deleted";
+
+"oil_Header_Single_Charge" = "Load ";
+
+"oil_Header_Multiple_Charges" = "Loads ";
+
+"oil_Kilometres_info" = "KM TRAVELLED";
+
+"oil_Liters_Placeholder" = "Liters";
+
+"oil_CostPerLiters_Placeholder" = "Each liter cost";
+
+"oil_EditCharge_Title" = "Edit Charge";
+
+"oil_EditCharge_Message" = "Enter the information of the charge";
+//*********************** Mantenimientos **************************//
+"set_New_Password_Button" = "Change Password";
+
+"services_New_Maintenance_Title" = "New Maintenance per Mileage";
+
+"services_New_Maintenance_Name_Placeholder" = "Enter the name of your Maintenance.";
+
+"services_New_Maintenance_Odometer_Placeholder" = "Enter mileage to perform service.";
+
+"services_New_Maintenance_Email_Placeholder" = "Mail (Non-mandatory field).";
+
+"services_New_Maintenance_Title_Date" = "New Time Service";
+
+"services_New_Maintenance_Name_Date_Placeholder" = "Enter the name of your Maintenance.";
+
+"services_New_Maintenance_Email_Date_Placeholder" = "Email (Field not required).";
+
+"services_Error_Title" = "Error";
+
+"services_Error_Message_Odometer_Name" = "You must enter a name for the service and the odometer for the service.";
+
+"services_Error_Message_Odometer_Value" = "It is necessary to indicate a value greater than 0 to place the maintenance.";
+
+"services_Error_Message_Date_Name" = "The name field cannot be empty and you must select a date before sending your Maintenance";
+
+"services_Error_Message_Date_Next" = "You must select a future date to continue.";
+
+"services_Error_Message_Date_Current" = "Your service date can not be today's date";
+
+"services_Error_Button_Close" = "Close";
+
+"services_Error_New_Date_Title" = "Error";
+
+"services_Error_New_Date_Message" = "The field cannot go empty";
+
+"services_Error_New_Date_Button" = "Close";
+
+"services_Success_New_Title" = "Right";
+
+"services_Success_New_Message_Lic" = "Your license reminder was successfully added";
+
+"services_Success_New_Message_Ver" = "Your Verification reminder was successfully added.";
+
+"services_Success_New_Message_Ten" = "Your Tenancy reminder was successfully added.";
+
+"services_Success_New_Message_Man" = "Your maintenance was successfully added.";
+
+"services_Error_Conection_Title" = "Error";
+
+"services_Error_Conection_Message" = "Without connection";
+
+"services_Success_Update_Title" = "Right";
+
+"services_Success_Update_Message" = "The update was successful.";
+
+"services_Error_Update_Title" = "Error";
+
+"services_Error_Update_Title" = "An error occurred while trying to update, try again later";
+
+"Services_Success_Delete_Tittle" = "Right";
+
+"Services_Success_Delete_Message" = "Your service was successfully deleted.";
+
+"services_Error_Delete_Title" = "Error";
+
+"services_Error_Delete_Message" = "Your service could not be deleted successfully.";
+
+"services_Header_Maintenance" = "Maintenance";
+
+"services_Header_Remember" = "Maintenance";
+
+"services_Next_Maintenance" = "Next maintenance";
+
+// New
+
+"services_Alert_Kilometers_Title" = "Kilometers";
+
+"services_Alert_Name_Title" = "Name";
+
+"services_Alert_Email_Title" = "Email";
+
+"services_Alert_Name_Message" = "Fill the name";
+
+"services_Alert_Kilometers_Message" = "Fill the number of kilometers";
+
+"services_Alert_Email_Message" = "Fill the email";
+
+"services_Alert_Date_Kilometers" = "Fill the date";
+
+"services_error_date" = "Please, choose a date";
+
+"services_error_fields" = "Please fill the data";
+
+"services_success_title" = "Success";
+
+"services_success_message" = "Data updated";
+
+"services_success_delete" = "Deleted";
+
+"services_error_option" = "Choose an option";
+
+"services_alert_description" = "¿What kind of maintenance will be?";
+
+"services_save_button" = "SAVE";
+
+"services_cancel_button" = "CANCEL";
+
+"services_kilometers_option" = "Mileage";
+
+"services_date_option" = "Date";
+
+"services_date_label" = "Choose a date";
+
+"services_Menu_option_Maintenance" = "Maintenance";
+
+"services_Menu_option_Renewal" = "License renewal";
+
+"services_Menu_option_Verfication" = "Vehicle Verification";
+
+"services_Menu_option_Tenure" = "Vehicle tenure";
+
+
+//********** Textos para las fechas *******//
+
+"time_Minutes" = "Minutes";
+
+"time_Now" = " Now";
+
+"time_Hours" = "hours";
+
+"time_hour" = "hour";
+
+"time_Minutes_Low" = "minutes";
+
+"time_Minute_Low" = "minute";
+
+"time_days" = "days";
+
+"time_since" = "Since";
+
+"time_and" = "and";
+
+//********** Textos de alertas de modo vigia *******//
+
+"fast_valet_active_Title" = "Watch mode";
+
+"fast_Valet_Active_Message_True" = "Watch mode is already active";
+
+"fast_Valet_Active_Message_False" = "Watch mode is already off";
+
+//********* Textos de recupera tu contraseña *********//
+
+"recover_Password_Tittle" = "Recover your password";
+
+"recover_Password_Tittle_Label" = "Among many passwords you can not find the one of your spot?";
+
+"recover_Password_Body_Label" = "Do not worry, enter your registered mail and we will send you an email with a link to change your password.";
+
+"recover_Password_Placeholder" = "Mail";
+
+"recover_Password_Button_text" = "Recover your password";
+
+"recover_Password_Error_ValidMail_Tittle" = "Error";
+
+"recover_Password_Error_ValidMail_Message" = "The email provided is not valid";
+
+"recover_Password_Error_ValidMail_Button" = "Close";
+
+"recover_Password_Error_Wrong_Email_Tittle" = "Error";
+
+"recover_Password_Error_Wrong_Email_Message" = "An account associated with the email provided was not found.";
+
+//********* Textos de cambio de contraseña *********//
+
+"set_New_Password_Label_Tittle_View" = "Recover your password";
+
+"set_New_Password_Label_Mail_Placeholder" = "Mail";
+
+"set_New_Password_Label_Pass_Placeholder" = "New Password";
+
+"set_New_Password_Label_Confirmpass_Placeholder" = "Confirm Password";
+
+"set_New_Password_Button_Change" = "Change Password";
+
+"set_New_Password_Error_Invalid_Email_Message" = "The email provided is invalid.";
+
+"set_New_Password_Error_Match_Message" = "Passwords do not match.";
+
+"set_New_Password_Error_Label_Blanck_Message" = "Fields must be completed correctly.";
+
+"set_New_Password_Message_Alert_Link_Delete_Title" = "Alert";
+
+"set_New_Password_Message_Alert_Link_Delete_Message" = "The link you used has already been removed, we invite you to request a new one.";
+
+"set_New_Password_Message_Alert_Link_Expire_Title" = "Alert";
+
+"set_New_Password_Message_Alert_Link_Expire_Message" = "The link you used already expired, we invite you to request another.";
+
+"set_New_Password_Message_Alert_Link_Avaliable_Title" = "Information";
+
+"set_New_Password_Message_Alert_Link_Avaliable_Message" = "Fill in the fields with the requested information.";
+
+"set_New_Password_Message_Alert_Succes_Title" = "Success!";
+
+"set_New_Password_Message_Alert_Succes_Message" = "Your password was updated correctly";
+
+"set_New_Password_Message_Alert_Error_Title" = "Error!";
+
+"set_New_Password_Message_Alert_Error_Message" = "An error occurred while trying to update your password, try again or contact your Spot provider.";
+
+//** Guard Mode **//
+"guardMode_Title" = "Guard Mode";
+
+"guard_Message_Title_Notificacion" = "Guard Mode";
+
+"guard_Message_Body_Notificacion" = "Activating the Guard Mode you will receive notifications when your vehicle leaves a radius of 150 meters (Equivalent to a block and a half) depending on the selected hours";
+
+// Human language alerts
+"guard_HumanMessage_workweek" = "Your alarm will be ON all the workweek from";
+
+"guard_HumanMessage_weekend" = "Your alarm will be ON all the weekend from";
+
+"guard_HumanMessage_week" = "Your alarm will be ON all the week from";
+// Hour one is greater than hour two
+
+"guard_HumanMessage_HourOneGreater" = "Your alarm will be ON from ";
+
+"guard_HumanMessage_HourOneGreater_Part2" = "to";
+
+"guard_HumanMessage_HourOneGreater_Part3" = " (Of the next day) on ";
+
+// Hour two is greater than hour one
+
+"guard_HumanMessage_HourTwoGreater" = "Your alarm will be ON from ";
+
+"guard_HumanMessage_HourTwoGreater_Part2" = "to";
+
+"guard_HumanMessage_HourTwoGreater_Part3" = "on";
+
+"guard_ErrorTitleAlert" = "Error";
+
+"guard_EmptyLabel_alert" = "Label cannot be empty";
+
+"guard_EmptyDays_alert" = "Days cannot be empty";
+
+"guard_Success_Title" = "Success";
+
+"guard_Label_placeholder" = "Label Name";
+
+"guard_Mode_schedule" = "Schedule";
+
+"guard_Mode_startLabel" = "Start";
+
+"guard_Mode_endLabel" = "End";
+
+"guard_Mode_daysLabel" = "Days";
+
+"guard_Mode_labelLabel" = "Label";
+
+"guard_Mode_saveButton" = "SAVE";
+
+"guard_Mode_cancelButton" = "CANCEL";
+
+"guard_Mode_startHourLabel" = "Start Hour";
+
+"guard_Mode_endHourLabel" = "End Hour";
+
+"guard_Mode_noAlarms" = "You have not added alarms yet";
+
+//** Error on GET/POST/PUT  **//
+
+"error_on_petition_title" = "Oops!";
+
+"error_on_petition_message" = "An error has ocurred, please try again. ERROR: ";
+
+
+//** Valet popup **//
+"valet_activate_message" = "¿Are you sure you want to activate the valet mode?";
+
+"valet_desactivate_message" = "¿Are you sure you want to desactivate the valet mode?";
+
+"valet_activate_button" = "ACTIVATE";
+
+"valet_desactivate_button" = "DESACTIVATE";
+
+"valet_cancel_button" = "CANCEL";
+
+//** Share My Spot Popup **//
+
+"shareMySpot_popup_activate" = "ACTIVATE";
+
+"shareMySpot_popup_desactivate" = "DESACTIVATE";
+
+"shareMySpot_popup_share" = "SHARE";
+
+"shareMySpot_popup_cancel" = "CANCEL";
+
+//** Kidnap Mode Alert **//
+
+"kidnapMode_Title" = "Coming Soon";
+
+"kidnapMode_Message" = "Coming soon kidnap mode";
+
+//** Share My Spot Alert **//
+
+"SMS_alert_messageChoose" = "Choose an option";
+
+"SMS_alert_messageDesactivate" = "Desactivate";
+
+"SMS_alert_messageShareLink" = "Share Link";
+
+"SMS_alert_messageCancel" = "Cancel";
+
+"SMS_alert_message_SuccessTitle" = "Success!";
+
+"SMS_alert_message_SuccessMessageDesactivated" = "Share My Spot desactivated";
+
+"SMS_alert_message_SuccessMessageActivated" = "Share My Spot activated";
+
+//** Notificaciones **//
+
+"Notifications_Default" = "Notification";
+
+"Notifications_ValetExit" = "Out of valet zone";
+
+"Notifications_Speed" = "Speed limit violation";
+
+"Notifications_LowBattery" = "Low battery";
+
+"Notifications_BatteryError" = "Principal energy disconnected";
+
+"Notifications_BatterySuccess" = "Principal energy reconnected";
+
+"Notifications_PanicButton" = "Panic button";
+
+"Notifications_VehicleTowed" = "Vehicle towed";
+
+"Notifications_IgnitionOff" = "Ignition lock";
+
+"Notifications_IgnitionOn" = "Ignition unlock";
+
+"Notifications_GuardModeActive" = "Guard Mode Activated";
+
+"Notifications_GasStation" = "Gas station";
+
+"Notifications_NoItems" = "You don't have notifications yet";
+
+//****************** Textos de mi multas ************************//
+
+"Tickets_title" = "Tickets";
+
+"Tickets_btn_All" = "All";
+
+"Tickets_btn_Pending" = "Pending";
+
+"Tickets_btn_Payed" = "Payed";
+
+"Tickets_btn_Help_Title" = "Tickets";
+
+"Tickets_btn_Help_Message" = "The information shown here is informative. For more details check the corresponding page.";
+
+"Tickets_noItemsAll" = "You don't have tickets for this vehicle";
+
+"Tickets_noItemsPending" = "You don't have pending tickets for this vehicle";
+
+"Tickets_noItemsPayed" = "You don't have payed tickets for this vehicle";
+
+"Tickets_folioLabel" = "Fine number";
+
+"Tickets_amountLabel" = "Amount";
+
+//****************** Textos de menú ************************//
+
+"menu_noPlates_title" = "Oops!";
+
+"menu_noPlates_message" = "You don't have plates registered for this vehicle. In order to see your tickets, you must fill the vehicle plates in 'My vehicle' section";
+
+"menu_noPlates_Option1" = "Go to 'My vehicle'";
+
+"menu_noPlates_Option2" = "Cancel";
+
+//****************** Textos de review ************************//
+
+"review_Title_One" = "You like Resser Spot?";
+
+"review_Title_Two" = "Tap a star to rate it";
+
+"review_Button_SendReview" = "Submit";
+
+"review_Button_NotNow" = "Not now";
+
+"reviewComment_Title_One" = "We are interested on your opinion";
+
+"reviewComment_Title_Two" = "Tell us the reason of your review";
+
+"reviewComment_Button_Send" = "Send";
+
+"review_Alert_NoRate" = "You must to choose a rate to continue";
+
+"review_Alert_EmptyComment" = "Comment cannot be empty";
+
+"review_Alert_SuccessReviewTitle" = "Success";
+
+"review_Alert_SuccessReview" = "Your review has been sent to our team";
