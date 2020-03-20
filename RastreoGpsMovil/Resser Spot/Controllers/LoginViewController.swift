@@ -21,7 +21,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var userTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var recoverPasswordButton: UIButton!
     @IBOutlet weak var loadIndicator: UIActivityIndicatorView!
     @IBOutlet weak var subBackgroundView: UIView!
     

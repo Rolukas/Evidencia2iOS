@@ -32,7 +32,6 @@
 		B215CE2222D510B40070A14C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B215CE2122D510B40070A14C /* Device.swift */; };
 		B22AD362232953E000F68BE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22AD361232953E000F68BE9 /* GoogleService-Info.plist */; };
 		B2486F3E22C512ED00AFBFE9 /* ResserDateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486F3D22C512ED00AFBFE9 /* ResserDateTime.swift */; };
-		B2486F8922C5235300AFBFE9 /* RecoverPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486F8822C5235300AFBFE9 /* RecoverPasswordViewController.swift */; };
 		B2486F9722CA735E00AFBFE9 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486F9622CA735E00AFBFE9 /* NotificationService.swift */; };
 		B2486F9B22CA735E00AFBFE9 /* NotifService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B2486F9422CA735E00AFBFE9 /* NotifService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B2486FA122CA78C900AFBFE9 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486FA022CA78C900AFBFE9 /* Phone.swift */; };
@@ -130,7 +129,6 @@
 		B22AD361232953E000F68BE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B2486F3C22C3C82C00AFBFE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		B2486F3D22C512ED00AFBFE9 /* ResserDateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResserDateTime.swift; sourceTree = "<group>"; };
-		B2486F8822C5235300AFBFE9 /* RecoverPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordViewController.swift; sourceTree = "<group>"; };
 		B2486F9422CA735E00AFBFE9 /* NotifService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotifService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2486F9622CA735E00AFBFE9 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		B2486F9822CA735E00AFBFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -296,7 +294,6 @@
 				B2D9AA73228A01800055931C /* LogoutPopupViewController.swift */,
 				B2529E6A228DBB3900155380 /* HistoricViewController.swift */,
 				B2F4636A229733FC00F48398 /* SosViewController.swift */,
-				B2486F8822C5235300AFBFE9 /* RecoverPasswordViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -603,7 +600,6 @@
 				B2D9AA74228A01800055931C /* LogoutPopupViewController.swift in Sources */,
 				A97B22322277C7EC00A0FB5E /* MapViewController.swift in Sources */,
 				A9B0BCE52272273400BF0E7C /* RastreoGpsMovil.xcdatamodeld in Sources */,
-				B2486F8922C5235300AFBFE9 /* RecoverPasswordViewController.swift in Sources */,
 				B2486F3E22C512ED00AFBFE9 /* ResserDateTime.swift in Sources */,
 				A911EA382280EAFD003560CD /* HideKeyboard.swift in Sources */,
 				B2486FA122CA78C900AFBFE9 /* Phone.swift in Sources */,
