@@ -1,9 +1,9 @@
 //
-//  Gif.swift
-//  SwiftGif
+//  launcherViewController.swift
+//  RastreoGpsMovil
 //
-//  Created by Arne Bahlo on 07.06.14.
-//  Copyright (c) 2014 Arne Bahlo. All rights reserved.
+//  Created by Rolando Sumoza Rivas on 11/03/20.
+//  Copyright © 2019 Rolando. All rights reserved.
 //
 import UIKit
 import ImageIO

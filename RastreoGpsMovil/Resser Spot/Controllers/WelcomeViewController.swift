@@ -1,10 +1,11 @@
 //
-//  WelcomeViewController.swift
+//  launcherViewController.swift
 //  RastreoGpsMovil
 //
 //  Created by Rolando Sumoza Rivas on 11/03/20.
-//  Copyright © 2016 Martin Duran anguiano. All rights reserved.
+//  Copyright © 2019 Rolando. All rights reserved.
 //
+
 
 import UIKit
 import AVKit
@@ -180,11 +181,11 @@ class WelcomeViewController: UIViewController, UIPageViewControllerDataSource {
     //Mark: Button to send the user to web page.
     @IBAction func Contract(_ sender: Any) {
         if #available(iOS 9.0, *) {
-            let safariVC = SFSafariViewController(url: NSURL(string: "https://resserspot.com/tienda")! as URL)
+            let safariVC = SFSafariViewController(url: NSURL(string: "https://spot.resser.com/tienda")! as URL)
             self.present(safariVC, animated: true, completion: nil)
         } else {
             // Fallback on earlier versions
-            UIApplication.shared.openURL(URL(string: "https://resserspot.com/tienda")!)
+            UIApplication.shared.openURL(URL(string: "https://spot.resser.com/tienda")!)
         }
     }
     

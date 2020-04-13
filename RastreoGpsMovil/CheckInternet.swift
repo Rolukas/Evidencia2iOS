@@ -1,8 +1,8 @@
 //
-//  CheckInternet.swift
+//  launcherViewController.swift
 //  RastreoGpsMovil
 //
-//  Created by Rolando Sumoza Rivas on 5/6/19.
+//  Created by Rolando Sumoza Rivas on 11/03/20.
 //  Copyright © 2019 Rolando. All rights reserved.
 //
 

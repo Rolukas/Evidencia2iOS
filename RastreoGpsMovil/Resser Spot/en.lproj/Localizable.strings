@@ -3,7 +3,7 @@
   RastreoGpsMovil
 
   Created by Rolando Sumoza Rivas on 5/6/19.
-  Copyright © 2019 Rolando. All rights reserved.
+  Copyright © 2019 Resser. All rights reserved.
 */
 //******** Textos de contrata ***********//
 
@@ -177,8 +177,7 @@
 
 "historic_Info_Start/End_Subtitle" = "at";
 
-// new
-
+// New string for hours and minutes
 "historic_Info_VehicleOff_Hour_&" = " Hour and";
 "historic_Info_VehicleOff_Hours_&" = " Hours and";
 "historic_Info_VehicleOff_Hour_Minutes" = " minutes at";

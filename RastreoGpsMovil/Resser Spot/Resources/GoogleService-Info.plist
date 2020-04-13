@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>514427004869-kp8e9g8pc2mqfnlng5pnti4s3r99mqp8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.514427004869-kp8e9g8pc2mqfnlng5pnti4s3r99mqp8</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>514427004869-dh3d45n0k3du119g30a3cuq9iq71s67n.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCQObo4eWypWJOSvYI5PhGNry9FQdzMFCw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>514427004869</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Resser.RastreoGpsMovil</string>
+	<key>PROJECT_ID</key>
+	<string>maps-asset-233928064</string>
+	<key>STORAGE_BUCKET</key>
+	<string>maps-asset-233928064.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:514427004869:ios:e26b918f15dd5fe8</string>
+	<key>DATABASE_URL</key>
+	<string>https://maps-asset-233928064.firebaseio.com</string>
+</dict>
+</plist>

@@ -10,5 +10,10 @@ target 'RastreoGpsMovil' do
   pod "WARangeSlider"
   pod "AppCenter"
   pod "SwiftyGif"
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Crashlytics', '~> 3.10.7'
+  pod 'Firebase/Core'
+  pod 'Firebase/Analytics'
   
 end

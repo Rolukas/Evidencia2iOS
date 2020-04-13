@@ -1,12 +1,14 @@
 //
-//  ResserDateTime.swift
+//  launcherViewController.swift
 //  RastreoGpsMovil
 //
 //  Created by Rolando Sumoza Rivas on 11/03/20.
-//  Copyright (c) 2020 Rolando. All rights reserved.
+//  Copyright © 2019 Rolando. All rights reserved.
 //
 
 import Foundation
+
+//http://www.globalnerdy.com/2015/01/26/how-to-work-with-dates-and-times-in-swift-part-one/
 
 open class ResserDateTime {
     

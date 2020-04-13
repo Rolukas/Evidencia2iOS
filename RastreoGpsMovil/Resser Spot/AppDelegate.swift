@@ -1,9 +1,9 @@
 //
-//  AppDelegate.swift
-//  Resser Spot
+//  launcherViewController.swift
+//  RastreoGpsMovil
 //
 //  Created by Rolando Sumoza Rivas on 11/03/20.
-//  Copyright © 2016 Martin Duran anguiano. All rights reserved.
+//  Copyright © 2019 Rolando. All rights reserved.
 //
 
 import UIKit
@@ -105,7 +105,118 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
         print("APNs registration failed: \(error)")
     }
     
-   
+
+    // This function will be called right after user tap on the notification
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        
+        // tell the app that we have finished processing the user’s action / response
+        do {
+           
+            let notificationBody = response.notification.request.content.body
+            // Ej. RESSER BLANCO-2012-57039,ignición prendido 9:08pm,av volcan del colli 1129
+            let notificationSeparated = notificationBody.split(separator: ",")
+            
+            let notificationVehicleData = notificationSeparated[0] // Info of current vehicle Ej. RESSER BLANCO-2012-57039
+            let notificationNotificationTypeData = notificationSeparated[1] // Info of notification Ej. ignición prendido 9:08pm
+            let notificationVehicleId = notificationVehicleData.split(separator: "-") // vehicle id Ej. 19350
+            let vehicleId = String(notificationVehicleId[2])
+            print("VEHICLE ID \(vehicleId)")
+            // Get the notification data
+            let notificationNotificationTypeDataArray = notificationNotificationTypeData.split(separator: " ")
+            
+            var i: Int = 0
+            var stringToMake: String = "" // Catch the string without hour (hour is in the last position)
+            let numberOfComponentsInString = notificationNotificationTypeDataArray.count // How many components are in the string Ej. ignición prendido 9:08pm = 3 components [ignición,prendido,9:08pm]
+            
+            // Get notification type info without hour
+            for string in notificationNotificationTypeDataArray{
+                if(i < (numberOfComponentsInString - 1) ){
+                    if(i == (numberOfComponentsInString - 2) ){
+                        stringToMake += "\(string)" // With whitespace
+                    } else {
+                        stringToMake += "\(string) " // Without whitespace
+                    }
+                }
+                
+                i += 1
+            }
+            
+            // Without special characters
+            let stringWithoutSpecialCharacters = stringToMake.folding(options: .diacriticInsensitive, locale: .current)
+            // Uppercased
+            let stringToIdentify = stringWithoutSpecialCharacters.uppercased()
+            
+            // Identify case
+            if(stringToIdentify != "ALERTA ACTIVADA" && stringToIdentify != "ALERTA PENDIENTE"){
+                NotificationInfo.vehicleId = Int(vehicleId) ?? 0
+                window?.rootViewController = MapViewController.instantiate()
+            }
+            
+            
+            //** Response actions (Rich push notifications) **//
+            if response.actionIdentifier == "cabin" {
+                "(33)-2300-6904".makeAColl()
+            }
+            
+            if response.actionIdentifier == "desactivate" {
+                desactivateGuardMode(id: vehicleId)
+            }
+            
+        } catch {
+            print("error \(error)")
+        }
+        
+       
+        
+        completionHandler()
+    }
+    
+    // When the user pressed "Desactivate" option on guard mode push notification
+    func desactivateGuardMode(id: String){
+        
+        let user: String = UserDefaults.standard.string(forKey: "user") ?? ""
+        let pass: String = UserDefaults.standard.string(forKey: "pass") ?? ""
+
+        let dictionarySub = [
+            "vehicleId": Int(id) ?? 0
+        ] as [String : Any]
+        
+        
+        let url = "https://rastreo.resser.com/api/GuardianAlertMobile"
+        let URL: Foundation.URL = Foundation.URL(string: url)!
+        let request:NSMutableURLRequest = NSMutableURLRequest(url:URL)
+        request.httpMethod = "PUT"
+        
+        let theJSONData = try? JSONSerialization.data(
+            withJSONObject: dictionarySub,
+            options: JSONSerialization.WritingOptions(rawValue: 0))
+        let theJSONText = NSString(data: theJSONData!,
+                                   encoding: String.Encoding.ascii.rawValue)
+        
+        request.httpBody = theJSONText!.data(using: String.Encoding.utf8.rawValue);
+        let loginString = NSString(format: "%@:%@", user, pass)
+        let loginData: Data = loginString.data(using: String.Encoding.utf8.rawValue)!
+        let base64LoginString = loginData.base64EncodedString(options: [])
+        request.setValue("Basic \(base64LoginString)", forHTTPHeaderField: "Authorization")
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")//   application/x-www-form-urlencoded
+        let session = URLSession(configuration:URLSessionConfiguration.default, delegate: nil, delegateQueue: nil)
+        
+        let dataTask = session.dataTask(with: request as URLRequest) { (data, response, error) -> Void in
+            
+            if error != nil {
+                
+                //handle error
+                print("==== desactivateGuardMode ERROR====")
+                print(error ?? "LOL")
+                
+            } else {
+                
+               
+            }
+            
+        }
+        dataTask.resume()
+    }
 
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         

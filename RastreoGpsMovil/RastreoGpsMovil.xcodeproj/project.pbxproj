@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,7 +19,7 @@
 		A911EA382280EAFD003560CD /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911EA372280EAFD003560CD /* HideKeyboard.swift */; };
 		A97B22302277ACE800A0FB5E /* Underline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97B222F2277ACE800A0FB5E /* Underline.swift */; };
 		A97B22322277C7EC00A0FB5E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97B22312277C7EC00A0FB5E /* MapViewController.swift */; };
-		A98292A4227B8CE600FE03CA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98292A3227B8CE600FE03CA /* MenuViewController.swift */; };
+		A9A4A8612278EFAC0070D37B /* MapPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4A8602278EFAC0070D37B /* MapPopupViewController.swift */; };
 		A9A4A86322790CDB0070D37B /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4A86222790CDB0070D37B /* Shadow.swift */; };
 		A9B0BCDD2272273400BF0E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0BCDC2272273400BF0E7C /* AppDelegate.swift */; };
 		A9B0BCDF2272273400BF0E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0BCDE2272273400BF0E7C /* ViewController.swift */; };
@@ -30,19 +30,24 @@
 		A9DFD7122281E9F20094BDE2 /* VehicleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFD7112281E9F20094BDE2 /* VehicleInfo.swift */; };
 		A9FE1DCD22C27CA3007E89F9 /* alarmtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9FE1DCC22C27CA3007E89F9 /* alarmtone.mp3 */; };
 		B215CE2222D510B40070A14C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B215CE2122D510B40070A14C /* Device.swift */; };
-		B22AD362232953E000F68BE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22AD361232953E000F68BE9 /* GoogleService-Info.plist */; };
 		B2486F3E22C512ED00AFBFE9 /* ResserDateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486F3D22C512ED00AFBFE9 /* ResserDateTime.swift */; };
+		B2486F8922C5235300AFBFE9 /* RecoverPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486F8822C5235300AFBFE9 /* RecoverPasswordViewController.swift */; };
+		B2486F8D22C53E5100AFBFE9 /* SetNewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486F8C22C53E5100AFBFE9 /* SetNewPasswordViewController.swift */; };
 		B2486F9722CA735E00AFBFE9 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486F9622CA735E00AFBFE9 /* NotificationService.swift */; };
 		B2486F9B22CA735E00AFBFE9 /* NotifService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B2486F9422CA735E00AFBFE9 /* NotifService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B2486FA122CA78C900AFBFE9 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486FA022CA78C900AFBFE9 /* Phone.swift */; };
+		B2486FA722CB981F00AFBFE9 /* GuardModeAlertPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2486FA622CB981F00AFBFE9 /* GuardModeAlertPopupViewController.swift */; };
 		B2529E6B228DBB3900155380 /* HistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2529E6A228DBB3900155380 /* HistoricViewController.swift */; };
 		B2591A59228C6DCF003C5AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2591A58228C6DCF003C5AB1 /* Assets.xcassets */; };
 		B2A4B5F422E232EF005267D4 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A4B5F322E232EF005267D4 /* Gif.swift */; };
-		B2A4B5F622E23331005267D4 /* ticketsGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = B2A4B5F522E23331005267D4 /* ticketsGif.gif */; };
+		B2B16BE62443DAAE00DC066C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2B16BE52443DAAE00DC066C /* GoogleService-Info.plist */; };
+		B2CB344923CE4B3E001D5248 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B2CB344723CE4B3E001D5248 /* Podfile */; };
+		B2CB344A23CE4B3E001D5248 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = B2CB344823CE4B3E001D5248 /* Podfile.lock */; };
 		B2D750A122F4AD7C003396C6 /* SameArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D750A022F4AD7C003396C6 /* SameArrays.swift */; };
 		B2D9AA74228A01800055931C /* LogoutPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9AA73228A01800055931C /* LogoutPopupViewController.swift */; };
 		B2EFFE7122D92E10001617DF /* ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EFFE7022D92E10001617DF /* ColorHex.swift */; };
 		B2F4636B229733FC00F48398 /* SosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4636A229733FC00F48398 /* SosViewController.swift */; };
+		B2F6367D22BD76F200231E7D /* ShareMySpotPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F6367C22BD76F200231E7D /* ShareMySpotPopupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,7 +115,7 @@
 		A9328BA3228070B800185F3C /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		A97B222F2277ACE800A0FB5E /* Underline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Underline.swift; sourceTree = "<group>"; };
 		A97B22312277C7EC00A0FB5E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		A98292A3227B8CE600FE03CA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A9A4A8602278EFAC0070D37B /* MapPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPopupViewController.swift; sourceTree = "<group>"; };
 		A9A4A86222790CDB0070D37B /* Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		A9B0BCD92272273400BF0E7C /* RastreoGpsMovil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RastreoGpsMovil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B0BCDC2272273400BF0E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,18 +134,24 @@
 		B22AD361232953E000F68BE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B2486F3C22C3C82C00AFBFE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		B2486F3D22C512ED00AFBFE9 /* ResserDateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResserDateTime.swift; sourceTree = "<group>"; };
+		B2486F8822C5235300AFBFE9 /* RecoverPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordViewController.swift; sourceTree = "<group>"; };
+		B2486F8C22C53E5100AFBFE9 /* SetNewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNewPasswordViewController.swift; sourceTree = "<group>"; };
 		B2486F9422CA735E00AFBFE9 /* NotifService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotifService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2486F9622CA735E00AFBFE9 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		B2486F9822CA735E00AFBFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2486FA022CA78C900AFBFE9 /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		B2486FA622CB981F00AFBFE9 /* GuardModeAlertPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardModeAlertPopupViewController.swift; sourceTree = "<group>"; };
 		B2529E6A228DBB3900155380 /* HistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricViewController.swift; sourceTree = "<group>"; };
 		B2591A58228C6DCF003C5AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2A4B5F322E232EF005267D4 /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
-		B2A4B5F522E23331005267D4 /* ticketsGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ticketsGif.gif; sourceTree = "<group>"; };
+		B2B16BE52443DAAE00DC066C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Resser Spot/Resources/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2CB344723CE4B3E001D5248 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B2CB344823CE4B3E001D5248 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		B2D750A022F4AD7C003396C6 /* SameArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameArrays.swift; sourceTree = "<group>"; };
 		B2D9AA73228A01800055931C /* LogoutPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutPopupViewController.swift; sourceTree = "<group>"; };
 		B2EFFE7022D92E10001617DF /* ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex.swift; sourceTree = "<group>"; };
 		B2F4636A229733FC00F48398 /* SosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosViewController.swift; sourceTree = "<group>"; };
+		B2F6367C22BD76F200231E7D /* ShareMySpotPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareMySpotPopupViewController.swift; sourceTree = "<group>"; };
 		FD3851E8D8AA0822DFAF2B0A /* Pods-RastreoGpsMovil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RastreoGpsMovil.debug.xcconfig"; path = "Target Support Files/Pods-RastreoGpsMovil/Pods-RastreoGpsMovil.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,7 +208,10 @@
 		A9B0BCD02272273400BF0E7C = {
 			isa = PBXGroup;
 			children = (
+				B2B16BE52443DAAE00DC066C /* GoogleService-Info.plist */,
 				A9DFD7112281E9F20094BDE2 /* VehicleInfo.swift */,
+				B2CB344723CE4B3E001D5248 /* Podfile */,
+				B2CB344823CE4B3E001D5248 /* Podfile.lock */,
 				A911EA3122807C24003560CD /* CheckInternet.swift */,
 				A9B0BD0D22722C1200BF0E7C /* RastreoGpsMovil.entitlements */,
 				A9B0BCDB2272273400BF0E7C /* Resser Spot */,
@@ -262,7 +276,6 @@
 			isa = PBXGroup;
 			children = (
 				B2591A58228C6DCF003C5AB1 /* Assets.xcassets */,
-				B2A4B5F522E23331005267D4 /* ticketsGif.gif */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -290,10 +303,14 @@
 				5B873A8A22774ECD00F5F3A3 /* ContentViewController.swift */,
 				5B873A8C2277573800F5F3A3 /* LoginViewController.swift */,
 				A97B22312277C7EC00A0FB5E /* MapViewController.swift */,
-				A98292A3227B8CE600FE03CA /* MenuViewController.swift */,
+				A9A4A8602278EFAC0070D37B /* MapPopupViewController.swift */,
 				B2D9AA73228A01800055931C /* LogoutPopupViewController.swift */,
 				B2529E6A228DBB3900155380 /* HistoricViewController.swift */,
 				B2F4636A229733FC00F48398 /* SosViewController.swift */,
+				B2F6367C22BD76F200231E7D /* ShareMySpotPopupViewController.swift */,
+				B2486F8822C5235300AFBFE9 /* RecoverPasswordViewController.swift */,
+				B2486F8C22C53E5100AFBFE9 /* SetNewPasswordViewController.swift */,
+				B2486FA622CB981F00AFBFE9 /* GuardModeAlertPopupViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -465,11 +482,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B16BE62443DAAE00DC066C /* GoogleService-Info.plist in Resources */,
+				B2CB344923CE4B3E001D5248 /* Podfile in Resources */,
 				5B5409A0227381E6001F22E4 /* background.mov in Resources */,
-				B22AD362232953E000F68BE9 /* GoogleService-Info.plist in Resources */,
 				A911EA2D228071BB003560CD /* Localizable.strings in Resources */,
 				A9B0BCEA2272273800BF0E7C /* LaunchScreen.storyboard in Resources */,
-				B2A4B5F622E23331005267D4 /* ticketsGif.gif in Resources */,
+				B2CB344A23CE4B3E001D5248 /* Podfile.lock in Resources */,
 				A9B0BCE22272273400BF0E7C /* Main.storyboard in Resources */,
 				B2591A59228C6DCF003C5AB1 /* Assets.xcassets in Resources */,
 				5B873A8522774AB100F5F3A3 /* spotColors.xcassets in Resources */,
@@ -547,34 +565,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RastreoGpsMovil/Pods-RastreoGpsMovil-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
-				"${BUILT_PRODUCTS_DIR}/WARangeSlider/WARangeSlider.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RastreoGpsMovil/Pods-RastreoGpsMovil-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WARangeSlider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RastreoGpsMovil/Pods-RastreoGpsMovil-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -589,23 +584,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				B215CE2222D510B40070A14C /* Device.swift in Sources */,
+				A9A4A8612278EFAC0070D37B /* MapPopupViewController.swift in Sources */,
 				A97B22302277ACE800A0FB5E /* Underline.swift in Sources */,
 				A9DFD7122281E9F20094BDE2 /* VehicleInfo.swift in Sources */,
+				B2486FA722CB981F00AFBFE9 /* GuardModeAlertPopupViewController.swift in Sources */,
 				B2F4636B229733FC00F48398 /* SosViewController.swift in Sources */,
 				5B873A8D2277573800F5F3A3 /* LoginViewController.swift in Sources */,
 				B2D750A122F4AD7C003396C6 /* SameArrays.swift in Sources */,
+				B2F6367D22BD76F200231E7D /* ShareMySpotPopupViewController.swift in Sources */,
 				5B873A8722774AE600F5F3A3 /* launcherViewController.swift in Sources */,
 				B2529E6B228DBB3900155380 /* HistoricViewController.swift in Sources */,
 				5B873A8922774E9A00F5F3A3 /* WelcomeViewController.swift in Sources */,
+				B2486F8D22C53E5100AFBFE9 /* SetNewPasswordViewController.swift in Sources */,
 				B2D9AA74228A01800055931C /* LogoutPopupViewController.swift in Sources */,
 				A97B22322277C7EC00A0FB5E /* MapViewController.swift in Sources */,
 				A9B0BCE52272273400BF0E7C /* RastreoGpsMovil.xcdatamodeld in Sources */,
+				B2486F8922C5235300AFBFE9 /* RecoverPasswordViewController.swift in Sources */,
 				B2486F3E22C512ED00AFBFE9 /* ResserDateTime.swift in Sources */,
 				A911EA382280EAFD003560CD /* HideKeyboard.swift in Sources */,
 				B2486FA122CA78C900AFBFE9 /* Phone.swift in Sources */,
 				A911EA3222807C24003560CD /* CheckInternet.swift in Sources */,
 				B2EFFE7122D92E10001617DF /* ColorHex.swift in Sources */,
-				A98292A4227B8CE600FE03CA /* MenuViewController.swift in Sources */,
 				A9B0BCDF2272273400BF0E7C /* ViewController.swift in Sources */,
 				5B873A8B22774ECD00F5F3A3 /* ContentViewController.swift in Sources */,
 				A9A4A86322790CDB0070D37B /* Shadow.swift in Sources */,
@@ -816,7 +815,7 @@
 				CODE_SIGN_ENTITLEMENTS = RastreoGpsMovil.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = RKY298MREG;
 				INFOPLIST_FILE = "$(SRCROOT)/Resser Spot/Resources/Info.plist";
@@ -825,7 +824,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.5.9;
+				MARKETING_VERSION = 3.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -845,7 +844,7 @@
 				CODE_SIGN_ENTITLEMENTS = RastreoGpsMovil.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RKY298MREG;
 				INFOPLIST_FILE = "$(SRCROOT)/Resser Spot/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -853,7 +852,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.5.9;
+				MARKETING_VERSION = 3.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -948,7 +947,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = RKY298MREG;
 				INFOPLIST_FILE = NotifService/Info.plist;
@@ -958,7 +957,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.4.1;
+				MARKETING_VERSION = 3.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovil.NotifService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -971,7 +970,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RKY298MREG;
 				INFOPLIST_FILE = NotifService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -980,7 +979,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.4.1;
+				MARKETING_VERSION = 3.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Resser.RastreoGpsMovil.NotifService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

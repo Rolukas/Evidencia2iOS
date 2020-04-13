@@ -1,11 +1,10 @@
 //
-//  MenuViewController.swift
+//  launcherViewController.swift
 //  RastreoGpsMovil
 //
-//  Created by Rolando Sumoza Rivas on 7/9/19.
+//  Created by Rolando Sumoza Rivas on 11/03/20.
 //  Copyright © 2019 Rolando. All rights reserved.
 //
-
 
 // This extension allows to know what device is the current device Example: iPhone 7, iPhone 8, etc...
 

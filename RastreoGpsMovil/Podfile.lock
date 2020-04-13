@@ -141,7 +141,7 @@ DEPENDENCIES:
   - WARangeSlider
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AppCenter
     - BoringSSL-GRPC
     - Crashlytics
@@ -195,6 +195,6 @@ SPEC CHECKSUMS:
   SwiftyGif: f7702483db93586a41f04f4927cd682852a2fa10
   WARangeSlider: 54b3e0853b8d16c444fd539005901aecee86837d
 
-PODFILE CHECKSUM: 75b8b81ae6b9373f8d7a3abf3a4ad57962a8ec72
+PODFILE CHECKSUM: 33cba7d168d0ece072fea380f8d3d9623bfe0e6f
 
-COCOAPODS: 1.6.2
+COCOAPODS: 1.8.4
